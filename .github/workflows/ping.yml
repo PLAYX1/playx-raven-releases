@@ -1,0 +1,9 @@
+# 공개 저장소에서 액션이 실제로 도는지 보는 한 줄짜리 시험.
+# 비공개 저장소가 결제로 막혀 있어도 공개 저장소는 도는지 — 그걸 확인한다.
+name: 도는지 확인
+on: { workflow_dispatch: {}, push: { branches: [main] } }
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "공개 저장소에서 액션이 돌았습니다."
