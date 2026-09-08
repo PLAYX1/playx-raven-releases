@@ -1,0 +1,23 @@
+{
+  "version": "0.3.8",
+  "notes": "새 판이 나왔습니다.",
+  "pub_date": "2026-09-08T08:37:43.398Z",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXR4MlduM1hTZS9oM2xtZ2RjdEgyOHBYUEwrZnAyYThXbXJVNC8rQ3dHSnJtS3UzeVN0Y2lqazQ0SDBtK2VCZnc2YjhIVmN5NmZWbFdsSExqaGhzSEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODU2MzY4CWZpbGU6UExBWSBYIFJhdmVuXzAuMy44X2FtZDY0LkFwcEltYWdlCldOQTdMU2hXUUlBdTJ0aCtwYngzUnBvdFU4M0xMUnkrVXBZVWRFVXpwS0VCenFNUnlSbFFWY3l2R3lsd1NPS1F4UFluajM3UVdUa0kyQW1heGVaaERnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/PLAY-X-Raven-latest-linux.AppImage"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXFneVdqallXK2lNNUFkdVlDaFB1cVp0T3JJeER4S3hIa3kwTG9NNlRnS3J3alRoZzlRNDFPZC9hbnVOWVRQZm9vNlUxTEs3ODIrM3lEOFg2OU5mdndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODU2MjM5CWZpbGU6UExBWSBYIFJhdmVuLmFwcC50YXIuZ3oKQkdtNE9NVmhNYWZFMUZCOENJMFpjbGJpdWpoSWRhZkpRU2JpMFNxMVhDTS9sdk9kWmZmTktROFhWS3RmVGxsZGNzWUJsaDJNcEhMd0V0aG5ESHZ3RHc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/PLAY-X-Raven-latest-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWtiOUE5d2xRUDAyTXdraDJjbHFBaXdZVmllUU9BZVZPRldFM05OYUtGTVQ2eVU2MHFTcVFJRjlSWGZvYWJ6WkV4elZyMERCOFVhY3J6aW1FS2FmaXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODU2MjY1CWZpbGU6UExBWSBYIFJhdmVuLmFwcC50YXIuZ3oKRWR4cmlIRmgyNlc1aXdVWjhoekJBVXRWNGhkV3kwR1BIcUV4dkkyMlNJTlZqdksvdStkajZHNmE0amtCeHdNc0dVZkZGSkpSMWdjaC84Y1RCU2l6Qnc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/PLAY-X-Raven-latest-mac-intel.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW51ditQR0dUUzNSeGZCbVcxcm53NjZmUnU5MmJrUFRwOXQ5TXJkeHR6Zk0vdXBIYkhBMFdhb2ovQ1pUK09la1FldzR2SlZXa1JqTGFzcUg4Yi9QNkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODU2NTk3CWZpbGU6UExBWSBYIFJhdmVuXzAuMy44X3g2NC1zZXR1cC5leGUKVG9ONy96cU4xZlNSSmVRTUNUcnRmblhzazZXRVZrc3VUSWEraGRjdW5yWlQ4TmJtMDNRNzRlSVdEdDI4cmJpZUcwQUZCbUlVSWhlK2VoTXNBUHRrQVE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/PLAY-X-Raven-latest-windows.exe"
+    }
+  }
+}

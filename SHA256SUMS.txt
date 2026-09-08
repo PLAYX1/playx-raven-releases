@@ -1,0 +1,16 @@
+2794893862145df2984c21083751c43a6a74f59d7aeedcf2e2b4ec57454750bb  PLAY-X-Raven-0.3.8-linux.AppImage
+b057a56e990952216167e24bbf49d683807a5602b27acb4bcdf09b7c7420a959  PLAY-X-Raven-0.3.8-linux.AppImage.sig
+8c958ee9d55d9e0945977d667fdc4136e14fb5f679adceeeacbe8c9ab796db45  PLAY-X-Raven-0.3.8-linux.deb
+b75b379ea72a8befe86414d2058d8803df41a022b55a0e4da9faa43d4b11ca8f  PLAY-X-Raven-0.3.8-linux.deb.sig
+a9b0d276b9eb993b8dd04391b2311d4b47d3e74718c4f39e000e445d36a1d61a  PLAY-X-Raven-0.3.8-linux.rpm
+d0b5d9f1da836add7897d74007e41f56ab99d3587eaec82338b92be6d5e2d737  PLAY-X-Raven-0.3.8-linux.rpm.sig
+4d41e1ba7310e60af5431faae20d76a873817ac6d6a8c2b1ef03700cd17c69d0  PLAY-X-Raven-0.3.8-mac-apple-silicon.dmg
+7d6978955a58e6eeb5cb7f0d8c9e3964a4decd007334c41047772a861c870856  PLAY-X-Raven-0.3.8-mac-apple-silicon.tar.gz
+c190fef0282a5585b8baa76cce66a96ec2dbd804c47618899d58ad792732f213  PLAY-X-Raven-0.3.8-mac-apple-silicon.tar.gz.sig
+95322fe38a7443b483b5e6116fbd57896baf8e4ed2e177aedc2ece8d7aee409a  PLAY-X-Raven-0.3.8-mac-intel.dmg
+a0343d5441e6fd0a71328a0243d999467efc10d1c7ffcfdb695be2f36c0d0ec5  PLAY-X-Raven-0.3.8-mac-intel.tar.gz
+c2cb3c8d0f9fa860fc6bb288f989c2a6e56fe393dce6431fb0c2f987e260b624  PLAY-X-Raven-0.3.8-mac-intel.tar.gz.sig
+a95d2c78e12c4e2eac404426467b6abcf269baaaec790d288e0acc507d05bd13  PLAY-X-Raven-0.3.8-windows.exe
+d3ad0e8380fa67ad8560c1cc9cc7a7b7bceebda4248278b8de83547878caa508  PLAY-X-Raven-0.3.8-windows.exe.sig
+edd5152061de1c98808c8cf705e98a0da5ad45654470631d2858739323416d2b  PLAY-X-Raven-0.3.8-windows.msi
+b5b20bbec98b7cdeb7c77246e5dedf1a0fd9f7c4054b7e22b4bb4348e5553754  PLAY-X-Raven-0.3.8-windows.msi.sig
