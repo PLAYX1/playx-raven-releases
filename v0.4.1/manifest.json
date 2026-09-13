@@ -1,0 +1,55 @@
+{
+  "version": "0.4.1",
+  "notes": "RavenVault Desktop: 지갑 누락 차단, 암호화 백업 검증, 이전 사본 보존과 노드 잠금 확인 복원. 기존 지갑 데이터 위치와 업데이트 식별자를 유지합니다.",
+  "pub_date": "2026-09-13T18:01:49.376Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWhad3RsZ3ZRT21RdnRMeFVGRklyeitIMjVxZTJlYVd2ZndTYWRDQTY1Y29HYlNNZzZtWExsMGdQZW5URGp2bWJnRlEwY3NzYnp6dnJyYzZhZFRKVFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMzgzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4xX3g2NC1zZXR1cC5leGUKa29SeWRJR0tIRWR0Mk51S2owZ0RGQURCQkNPU0t4aDZjTXErRVRjNU5TaGd4TGpPNmtRL3Z1MFdpYTd6YzIybjN5VlZVcFZtRU5VbWFSS2RmdnV5RHc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXUxUWtlWmpuWlNQVGJsaE5vWjYvVENDM3JKVHhFN2F3TlRDY0J5WnNGc0oxaGF5dzRQa3FOWk9pT1pEUlBOKzU4Y3ovOVB4dWNhVzFMMHR3ZU84VWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMjI5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKbjFmTllBbTFoLzBGY0JZU3RFN0FpS0d4WHdTdHE4bDBKdTZsNWZyZnVxOHU3WnJ0REJVOFcyWkJRMUUzR0Z1dnpXTjE2WGVRTlpaSmYxWEdGTTZtQmc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXF2MkpJcjJkNUVpNGY1aDVkZ3pjVE8zYnJ5ZHlTbkRLMXFCQUlTbTlwT0ZNS2hvczY1MGJ5QkNVMURQY1pJZUxjT2U3d2lGbW9QbnNyMlUvOEttMUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMDY2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKUy9NREl6YlBEcU5FTVpZbTh3U1ZKd0VLRS9Dc04xdW1SWDExTTVzMDZIS0ZEdVIvNEl2QU9YSmNRVmpGZ1hpUkpwdWthM3g1YTU0bENxbFQveFF2QkE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXZDcGZRb1FtcDJVUWl4YlpzL1JBVkVnZXNRRFZOckRaaENUWml6NCthWGJGa1AzU1UveEVKUU5UWjZyOWZJU2pvblh1cTArWEVZc1lady9qK1dUQ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMTQyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4xX2FtZDY0LkFwcEltYWdlCld1Z0JIeGREaTI5THZUKzZwcVBWSU5HZHExOEsyS1UrRjJXc2RTTXZEZU9ZQUEvVzFkOHhHNkxxYkRPMS9qM21qOEFuRC8rN0hrcjdtWEhXT0ZsbkNnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.exe",
+      "bytes": 47707098,
+      "sha256": "4b708894bb553f945c113b580c9b63b129480a827ca852ea5775d0baace855e1"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.msi",
+      "bytes": 59203584,
+      "sha256": "a5bcd1613847fd539e46dd366926d42f9d18d16ccb819b294bdb4547d8c0224c"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-apple-silicon.dmg",
+      "bytes": 58432217,
+      "sha256": "d68287e1d7dd4ba612ae2e7e0c74eaec8b5e30ad3aef44a776eb95174a74308c"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-intel.dmg",
+      "bytes": 62836854,
+      "sha256": "08e0f6652231e67751124846e7ada38e1b0ae5c66ae946d6ba5e9765cf58acc8"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-linux.AppImage",
+      "bytes": 87284216,
+      "sha256": "c3faf31c037e1f76cd80536a25c2c5f5af83b2660797de3e751fe5c7c9f8b33e"
+    }
+  ]
+}
