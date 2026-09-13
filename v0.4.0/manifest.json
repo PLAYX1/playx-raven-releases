@@ -1,0 +1,55 @@
+{
+  "version": "0.4.0",
+  "notes": "RavenVault Desktop: 웹 지갑 연결, 팬 소식, 오프라인 도구와 새 디자인. 기존 지갑과 가게 기록을 유지합니다.",
+  "pub_date": "2026-09-13T16:45:22.664Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW5xckp0cG94eHpwNzQ3ODEyd2JvcnFhaVFsdVp6SmhYMkVXa1FiclhKV2JBV0g3RkxiVVZ5dGVsUkhGZStnd0FpME81SlUrUWJBNUxJVXMyN3R6Y0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzE3ODgzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4wX3g2NC1zZXR1cC5leGUKM05MeDBEYWdnZjlheWFhdGlCUktUZWpVdEtlMXR3c3dJZnVaK0pLS1dwc1BRNEZzeXpDWUJickdNVk1KZEgvR1AxU1c1cWNTWEhVTjFjRlM1RDRMRFE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXEvNE1kTWViS1ZFR3JyNHhSalhyRUZGNDFkeThKd2ZqakZ5dksrcW1FbnJOR2RybEpTVzR4M1VmTTJYeVJoWktXK3hNV2RsSy9DbExFZlE1TXphaVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzE3ODM0CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKdzlYdWl2di85MHdvQ1ozTzNjQW1heW9PQjRxTTd3Ymx4Q1o1azBNZWo2NXpKN3RSdm1seVpmQlBhQkhiczkzT1poMXVldy9yNjZVWFZBTmQ4NTJnREE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXZjSkM2WkF4dEJMb2VEQ1F2RGp0UmRYZHRIZFg5c3ZwNCtDV2JjYzJVMmJHa3pTL0NlUUcvbE9kR2d2Rzk1amtSRnlNVEE4VVNPV3lGMmdIbVVKWmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzE3NjgxCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKVXl0cVFJMHpIQjRQMEs2N0E5QU5nVVYwazRiazQybHFZSjNsY2lQdzRXOURiTURiVlVReTRHYWJGVkJMUFI4QUJpMjcwWjVFeldVcEZDb29MeElFQlE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXN2NlBGaHl1QjJ6K1JHMjNKZjFyWXd3T0JYMjYydTd2cnRYQlQxVEFzdFdxL1Z0Y3NZdWIxZ1gvbzF6djVJMm1GWDFTclBuZ3VIQ2VGbGNTOERuTUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzE3NzE1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4wX2FtZDY0LkFwcEltYWdlCnZKWGxwcGZJVnJlVVpOUDduS0Z2eXVkN3o0bEVJc1ZseVZzMXNtb3BUSGpleDV1dnRzSXR6NXJBTFNPT3FtZXV1MjZHSm9yOUExcHNwemkyYmNoUERRPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-windows.exe",
+      "bytes": 47574051,
+      "sha256": "05739e05f1e2af57175f2ed17fed180acf0ca5dc31bce863df2e36a889f6ffb9"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-windows.msi",
+      "bytes": 59076608,
+      "sha256": "41ce8671742184372e6b0a4e8dd3ffe654469f9b53fc3022ad1987723518cbbc"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-mac-apple-silicon.dmg",
+      "bytes": 58307309,
+      "sha256": "b3100163b37c54645c62ee0c597dcfc7cb00957bfaf7231ca88ffc236c5494d2"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-mac-intel.dmg",
+      "bytes": 62771141,
+      "sha256": "dfcbc73af30318165a875422bcb6ab01bba05a38e231f8c6fab6cf32a73914fa"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.0/PLAY-X-Raven-0.4.0-linux.AppImage",
+      "bytes": 87239160,
+      "sha256": "c630cef3e21b7e0b0fd8ae4e28704c046530380dc6045c2c826339ec4ff082e9"
+    }
+  ]
+}

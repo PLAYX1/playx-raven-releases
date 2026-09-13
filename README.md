@@ -1,8 +1,5 @@
-# PLAY X Raven 0.3.8
+# RavenVault Desktop 0.4.0
 
-가게 컴퓨터용 **설치 파일만** 있습니다. 소스는 여기 없습니다.
+공식 설치 안내: https://ravenvault.ex.erci.se/download/
 
-받으시는 곳: <https://rvn.ex.erci.se>
-
-받은 파일이 맞는지 확인하시려면 `SHA256SUMS.txt` 의 값과
-비교하세요. 다르면 받다가 깨졌거나 누가 바꾼 것이니 **열지 마세요.**
+PLAY X Raven의 지갑·가게 데이터와 업데이트 서명을 이어받습니다. 버전별 파일은 보존합니다.
