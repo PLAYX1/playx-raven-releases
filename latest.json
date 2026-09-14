@@ -1,55 +1,55 @@
 {
-  "version": "0.4.1",
-  "notes": "RavenVault Desktop: 지갑 누락 차단, 암호화 백업 검증, 이전 사본 보존과 노드 잠금 확인 복원. 기존 지갑 데이터 위치와 업데이트 식별자를 유지합니다.",
-  "pub_date": "2026-09-13T18:01:49.376Z",
+  "version": "0.4.2",
+  "notes": "RavenVault Desktop 0.4.2: 폰에서 서명한 거래를 확인 후 내 노드로 보내기, 네트워크 상태 연결, 폰에서 RavenVault 쓰기 QR 한 곳으로 정리, 라비 그림 통일. 기존 지갑 데이터 위치와 업데이트 식별자를 유지합니다.",
+  "pub_date": "2026-09-14T01:26:22.832Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWhad3RsZ3ZRT21RdnRMeFVGRklyeitIMjVxZTJlYVd2ZndTYWRDQTY1Y29HYlNNZzZtWExsMGdQZW5URGp2bWJnRlEwY3NzYnp6dnJyYzZhZFRKVFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMzgzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4xX3g2NC1zZXR1cC5leGUKa29SeWRJR0tIRWR0Mk51S2owZ0RGQURCQkNPU0t4aDZjTXErRVRjNU5TaGd4TGpPNmtRL3Z1MFdpYTd6YzIybjN5VlZVcFZtRU5VbWFSS2RmdnV5RHc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWhpTEhKWmpUSFJxT2hTTmZrVnFXVDU3d25nS2hlQkFMTWlOWkxRRHkyNVIrWVFnU21vQUR3SUxBN2ZUV05BS2ZtbnpuY1lmb0xlTThRd3haZkNvM1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ5MDMwCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4yX3g2NC1zZXR1cC5leGUKSzh1elVYejJpT2xmL3ptZVNJR3Nkem1xbUhCa204Z3ZydmcwVFpxcmxSUWw3b25Fa25WcnJSbzNHNXd1eEl6ZittTVlSejdSM0tiUWdLZnFiMHExQUE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-windows.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXUxUWtlWmpuWlNQVGJsaE5vWjYvVENDM3JKVHhFN2F3TlRDY0J5WnNGc0oxaGF5dzRQa3FOWk9pT1pEUlBOKzU4Y3ovOVB4dWNhVzFMMHR3ZU84VWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMjI5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKbjFmTllBbTFoLzBGY0JZU3RFN0FpS0d4WHdTdHE4bDBKdTZsNWZyZnVxOHU3WnJ0REJVOFcyWkJRMUUzR0Z1dnpXTjE2WGVRTlpaSmYxWEdGTTZtQmc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-apple-silicon.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXJzOUpIRkcxcnROOVRjaUQ2Vm82bHFabHc4WEdiazY5ZjZqb0NOdnhVT1NEN3BlZkdQMTQxeXBYaWV3eTNka2U2Z0N3b25FTVl0THM5U01nbThsRlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ4NjIzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKaFpJeHpZRUczQ05kSkhqWHhocG9HT3NSdVA1T1FkN2RnZ3RpV3EzUDN5YVQ2eFQwSng3OU9vWGNKeU9RaUFXbnhkUDl5cG9NRmErKzkxYUd6THZ2Q0E9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-mac-apple-silicon.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXF2MkpJcjJkNUVpNGY1aDVkZ3pjVE8zYnJ5ZHlTbkRLMXFCQUlTbTlwT0ZNS2hvczY1MGJ5QkNVMURQY1pJZUxjT2U3d2lGbW9QbnNyMlUvOEttMUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMDY2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKUy9NREl6YlBEcU5FTVpZbTh3U1ZKd0VLRS9Dc04xdW1SWDExTTVzMDZIS0ZEdVIvNEl2QU9YSmNRVmpGZ1hpUkpwdWthM3g1YTU0bENxbFQveFF2QkE9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-intel.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWpLeDVjV2RHK0tFM3VPMElWbHhRbVZKcHVJWlVnUlJBUGJZOE84SUtFUzQvRzRCRGxjQjdvODNRQjBPek0zY3FVeDVJUUhFenhGa1BnM3MvY3VuN3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ4NTY3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKRjVhTHo0WjZPWjJsUmFXRUYxTXh6UWk2QTVDY2x0V3hYbDBmRFg0UzVwR01EeHpobTRTb2pOb1gwbStId1pKdWVRWWdjS0xGOElrT2tPdmZ6RFVHQ1E9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-mac-intel.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXZDcGZRb1FtcDJVUWl4YlpzL1JBVkVnZXNRRFZOckRaaENUWml6NCthWGJGa1AzU1UveEVKUU5UWjZyOWZJU2pvblh1cTArWEVZc1lady9qK1dUQ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIyMTQyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4xX2FtZDY0LkFwcEltYWdlCld1Z0JIeGREaTI5THZUKzZwcVBWSU5HZHExOEsyS1UrRjJXc2RTTXZEZU9ZQUEvVzFkOHhHNkxxYkRPMS9qM21qOEFuRC8rN0hrcjdtWEhXT0ZsbkNnPT0K",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-linux.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlnY1RoYnNaQzF5TGVSQjgrbVdoSEZFYkVvYkFzdXdwYWpuTHRJWnRPbWZ1ZElUQ0xEY0REcldCWjd3d1dJbWwySmdtSWl1bmIzMlRkWGFDWHZsR3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ4NzY2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4yX2FtZDY0LkFwcEltYWdlCnNhTEM0TDBOcWQ4S1pTWUJ4R0MwYm1kSjh6cWwwd0JZZE9PRVM2YnFnWkxKT3BiU0k4aEJOVHd4UUVkcmI3V3M5S2xpbnRpRzVtaTU1WkwrbDlORUN3PT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-linux.AppImage"
     }
   },
   "installers": [
     {
       "platform": "windows.exe",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.exe",
-      "bytes": 47707098,
-      "sha256": "4b708894bb553f945c113b580c9b63b129480a827ca852ea5775d0baace855e1"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-windows.exe",
+      "bytes": 47666338,
+      "sha256": "b4ccc12040c471259be5c57e1edaf4e601cf59cabc33391be7fd219348611d39"
     },
     {
       "platform": "windows.msi",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-windows.msi",
-      "bytes": 59203584,
-      "sha256": "a5bcd1613847fd539e46dd366926d42f9d18d16ccb819b294bdb4547d8c0224c"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-windows.msi",
+      "bytes": 59211776,
+      "sha256": "a6840cb3ff7896fc7f97b9ef69ce803c904dbe0777a2e8cc0d6a9204fac0b7bd"
     },
     {
       "platform": "mac-apple-silicon.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-apple-silicon.dmg",
-      "bytes": 58432217,
-      "sha256": "d68287e1d7dd4ba612ae2e7e0c74eaec8b5e30ad3aef44a776eb95174a74308c"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-mac-apple-silicon.dmg",
+      "bytes": 58523030,
+      "sha256": "31ac43472f5175dcdd84c41e2ee49baa72ebb90fcd938f53a15e8745da16d9ec"
     },
     {
       "platform": "mac-intel.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-mac-intel.dmg",
-      "bytes": 62836854,
-      "sha256": "08e0f6652231e67751124846e7ada38e1b0ae5c66ae946d6ba5e9765cf58acc8"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-mac-intel.dmg",
+      "bytes": 62876828,
+      "sha256": "22964b7853c48a6992818d08f488d241fbe05c79a08c86aed8d6a71ba366c669"
     },
     {
       "platform": "linux.AppImage",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.1/PLAY-X-Raven-0.4.1-linux.AppImage",
-      "bytes": 87284216,
-      "sha256": "c3faf31c037e1f76cd80536a25c2c5f5af83b2660797de3e751fe5c7c9f8b33e"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.2/PLAY-X-Raven-0.4.2-linux.AppImage",
+      "bytes": 87497208,
+      "sha256": "d817c95caea77a8dfa4f2351fb84b1ba79668f2e202598ec9f6383f863adedbd"
     }
   ]
 }
