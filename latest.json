@@ -1,55 +1,55 @@
 {
-  "version": "0.4.3",
-  "notes": "RavenVault Desktop 0.4.3: 모든 화면 위 RavenVault Desktop 머리줄과 설정·언어 단추, 라비 홈 「한눈에」(노드·확정 잔액·받기·폰 거래 보내기), 네 언어 즉시 전환과 화면 전체 영어·일본어·중국어 번역(사용자 글은 번역하지 않음), PLAY X Raven 표시 이름 정리. 기존 지갑 데이터 위치와 업데이트 식별자를 유지합니다.",
-  "pub_date": "2026-09-14T08:43:11.210Z",
+  "version": "0.4.5",
+  "notes": "RavenVault Desktop 0.4.5 — 0.4.3 다음 판입니다. 만들기와 종이 증명서, 가게 회원 관리, 보안 수리. 만들기: 증명서·티켓·작품을 고르고 제목과 장수만 적으면 만듦. 증명서는 받는 사람·발급일·발급자를 적어 A4 증서로 인쇄하거나 PDF로 저장(양식 셋: 수료증·증명서·감사장, 종이의 QR과 증서 번호로 누구나 진짜인지 확인). 받는 사람 이름·설명은 체인에 올리지 않고 이 컴퓨터에만 남고, 「만든 것」에서 다시 인쇄. PDF·한글·워드·사진 문서를 창에 놓으면 파일은 올리지 않고 지문만 적어 증명서로(짧거나 양식이 정해진 문서는 지문만으로도 내용을 짐작당할 수 있다고 안내). 티켓은 만든 뒤 바로 팔기. 이름 등록(500 RVN)은 이름을 한 번 더 적고 8초 안에 취소할 수 있으며(취소 창이 화면 안으로 보이게), 폰이나 다른 컴퓨터에서 만든 내 이름이면 먼저 주인 표를 옮기라고 안내. 아직 기록 중인 이름이 있으면 「기록 중」으로 보이고 새 이름 등록을 막음. 보냈는지 모름: 발행·보내기에서 노드가 제때 답하지 않으면(발행은 3분까지 기다림) 실패로 치지 않고 「보냈는지 아직 몰라요 — 다시 보내지 마세요」로 알림(보내기 전 읽기가 늦은 것은 보낸 것으로 치지 않음). 만들기: 보내는 동안 「보내는 중 — 창을 닫지 마세요 (최대 3분)」, 보내기 직전에 기록을 남겨 도중에 앱이 꺼져도 다시 켜면 「보냈는지 모름」으로 이어감, 체인과 지갑(확인 전 거래 포함)에 기록되면 그대로 완료, 한 번에 하나만 보냄 — 같은 것을 두 번 태우지 않음. 발행 창: 두 번 눌러도, 발행 뒤 「닫기」를 눌러도 한 번만 보냄. 「보냈는지 모름」은 이 컴퓨터의 작은 기록 파일(이름·종류·시각)에 남아 앱을 다시 켜도 같은 발행(더 찍기 포함)을 막고, 다시 보내기 전에 지갑의 확인 전 거래를 봄 — 한 시간 넘게 지갑에 안 보이면 풀림. 파일을 오래 올린 뒤에는 지갑 잠금을 다시 확인하고 발행. 발행: 고른 파일은 「발행하기」를 누를 때만 공개로 올라감(그 전에 창을 닫거나 8초 안에 취소하면 올라가지 않음). 이 컴퓨터에서 만든 원본 지문 자산은 파일로 착각하지 않고 「원본 지문」으로 표시(다른 기기에서 만든 지문은 알아보지 못할 수 있음). 만든 기록: 받는 사람 이름과 원본 지문이 담긴 만든 기록을 백업에 포함, 기록 파일이 손상되면 망가진 파일을 지우지 않고 옆에 남긴 채 「기록을 새로 시작」, 받는 사람·발급자·설명은 보관 기간(가게 회원 보관 기간, 없으면 12개월)이 지나면 지움(체인 이름·지문·거래 번호는 남음), 인쇄용 임시 파일은 7일 뒤 정리(앱이 쓴 이름의 파일만, 바로가기 폴더는 따라가지 않음). 회원: 표를 산 손님을 동의를 받고 회원으로 등록(사장 화면도 「회원에게 동의를 받았어요」 확인이 있어야 등록), 사장이 정한 수집 범위(받지 않음·이름만·이름과 전화 끝 4자리·이름과 전화 전체)를 사장 화면에서도 앱이 지킴, 생년·성별·비상 연락처는 「이름·전화 전체」일 때만 받고 동의 문구에도 적음(동의 문구 새 판), 동의 시각은 앱 시계로 적고 고쳐도 처음 동의 기록을 유지, 지워진 줄에 개인정보를 다시 적으려면 새 동의 필요, 새 회원 등록 전 회원 설정을 못 읽으면 5 RVN 발행 전에 멈춤, 보관 기간이 지나면 이름·전화·메모 자동 삭제. 회원 메모와 분류(성인반·PT 등), 이름·번호·전화 끝 4자리·메모로 찾기, 아이폰 직원도 앱 없이 직원 화면(사파리)에서 회원 찾기·등록·메모, 문 앞 태블릿은 회원 명단을 못 봄. 0.4.3 회원 자료는 그대로 읽힘. 가게: 다시 켜도 주문과 번호표를 기억, 주문 기록 파일을 잃어도 지갑의 자산 기록으로 이미 보낸 주문을 알아봐 다시 보내지 않음, 직원 환불은 가게 통화로, 메뉴판 「주소 복사」는 손님이 실제로 열 수 있는 주소를 복사. 파일 보존: 자산 화면의 「확인」과 자동 보존이 폴더로 묶인 파일(곡·영상 묶음 등)도 찾아 보존함 — 살아 있는지 파일 내용 대신 뿌리 블록으로 확인. 못 붙든 파일은 한동안 다시 묻지 않음. 보안: 창 보안 정책(CSP)과 외부 글자 이스케이프, 가게 파일 중계(/ipfs)는 스크립트를 실행하지 않음, 인터넷(터널)에서는 손님 화면과 웹 지갑 연결만 허용, 앱 자료 폴더를 본인 계정 전용으로 잠금, 복구 단어 보기가 개인키 임시 파일을 만들지 않음. 기존 지갑·가게 데이터 위치는 그대로입니다.",
+  "pub_date": "2026-09-23T06:34:31.266Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxLT2Vvb0JpMjJzTStKclZad1lRWHZOY2dTZ0ZQMWNGZXFIV3hwVVEvSTdHeGw2cGM5ZVFxVWgwckVqWG01VC8zVnJUQ0tRbER2ZXJOblVFdk80Y0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc1MTk3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4zX3g2NC1zZXR1cC5leGUKTEt4cyswcENVT2svNk9Cd2lIOEgzOXRGS1N5NTAyMHZpdXJxOE9QVHh5NUtpTThlb1NNQmtrNjJaRWROQkZKZFFyemh6Ukx0ODZPOVpUWkZta1RCQ2c9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXQxZDBETjB5T2NVbm1uZjhLcnFSUWJxekovSm9xREZERUFlK245bkJVZGNaOEd3eDNjWXBWdCtiL1VGQjI1dWxkbVlkdnVMRjdoZmFhcVZWS1I1bVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ1MTAwCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC41X3g2NC1zZXR1cC5leGUKWWhLVGxCL3pDcmx0RHFuZ2M2QzFFY2lmZjl6NzJmdG4wY09GdU93NXFwSHdoSURrSW1MMWlneTFWc3NOQ0ZTNUFBSlM3KzVaZEJ1SmdXY0MyaTVNQXc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-windows.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXBpSmxhUXhKTVBMOUhDUUdhcktzMDVJWi9QQkZmSjVVdmprSzhPeWtnY1FScDBtaHBhNHFTbm1ZQ3NaakhDdlZrSGl1R1JOSTZkUGxsYzF5TGM5b1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc1MDIzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKa0hvUDBzQVF5NXlrc0wxeUZuQnFvcmZZaVdBa2JVN0FoQWhXOE9kUkpVYVRrV21FR25keExzSEhNWHlFVWoxVWZhVHBRaDJvQ2tnZEtoY0lXRmJPQ0E9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-mac-apple-silicon.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxMMnhGYzMxb1BGWVdQSXNFZk9JbXFGbUVsQkcrRE1CVUxoZGs2SVpJa0M0QklVV0J2c0s0cDFZbHU2NUdHNHZFblYwUXI5ZU0xOUlBeEhTZUkzclFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ0ODE1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKNU9wVERSOEQ2WlVNR1BlWkU5VTQrVWo4YlM4OGtweWhweXpQZ1RFVXFxSFI2S2lBT0EvNHlWeVhocGdvTzRpR0pubzV5QVlHaEMyTzJkUDlyOTRMREE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-mac-apple-silicon.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxFUVNrYzRCdFBUQ0trSy9kQklyQ0x0d2Z1eDlxV0s3eFBsckE1TEVPdUh6TUNvbnQ2VUVNVVhJQVVPc2dyeThOMlU3Z2l3NEl3QXdJQnF3bHd2cEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc1MDM1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKMHZlTkpmZTlrOWVJM3dCYVM3bFB5MWFGbWhuQStRM0RLRzJHVzVXNXdrVGtIdWlkelB6U1J4WXlYbHRDNGEybXpoaHJLTzNRRlhzOEhVamdFZEtWQnc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-mac-intel.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW1MWWFjYmpzb1N3Rm1ianRRcVRvSDU0cjFBZ2JvV0o3ZUQ3cDVXNGlJSVBDaG9QeG1ZdzA2RUZEZTR2Zmp0cVFvMFFVOFNRMUlXMDdJVDBMbFNJbGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ0NjgzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKWjlHNTJSYVZTV3hUaTlyRzdxR1Z4clpkaDIyWVFLQ3U1cmVRNERidUREcTZORjI5Y3FwNTNpNWxVRUZLampRVVJKS1hxeE40RHlBR2hhZ2p6R2thQXc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-mac-intel.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWtzN0d4aXY3T1Zxck5TVlppcW16MjdmK0VIZVBIUzZETjhmZTV0THN0b0k4ZHBRNDdJNlc4b0RwZmJ5RkFZYW5Mb3A3UkJ5QXcxRWNjNEJJVitRR2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc1MDU0CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC4zX2FtZDY0LkFwcEltYWdlCkU3QzVkSlZrVVV0WWc3UmZzeDRVMk1yeiswMlovclpKc04xWEFxMmZGK3BEei9DbUdnUllzVFVaVkJNcnZzTXhkQWVldFFvR25ZQVFXbGNSZ0VkL0JnPT0K",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-linux.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWhCSDRtMHA0a0pydkt2dzk3VUZzY2xBMk5YSG9TMERJd3BWbFNtUXUvSTNXYnFlN1NYZVd1NU12QWM4azFyTTNlN3BQamJtZVFqT0IwK1BGb3JVUXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ0ODM4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC41X2FtZDY0LkFwcEltYWdlCnFZa3ZFbXlOL1NLWDFJd2xvMVcrYnN6MG5BazRTV0tNbzBUNjBrWGhNVTduMXAvc1REaXlmOVlVWnBqOHc1dThtQXhpY05GbTJkUC9PY1V0dFRWY0J3PT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-linux.AppImage"
     }
   },
   "installers": [
     {
       "platform": "windows.exe",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-windows.exe",
-      "bytes": 47796936,
-      "sha256": "2f7fc730eb29e36705212e54e89864e96cc52b261ce5217ac8b9b09fa6679b52"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-windows.exe",
+      "bytes": 47982379,
+      "sha256": "c22574965fc3edb5641b7e1467c6098db56da3142513222e8c75a83238d33ddc"
     },
     {
       "platform": "windows.msi",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-windows.msi",
-      "bytes": 59334656,
-      "sha256": "398134ddd0e88c00b13faf19e1d6ff0ba984bf3bfbf69636a8201f6a9f3ae4ae"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-windows.msi",
+      "bytes": 59625472,
+      "sha256": "884dd8cd783afc43b40ac0e4be639c883cee86292d798521023fd15e19b6d139"
     },
     {
       "platform": "mac-apple-silicon.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-mac-apple-silicon.dmg",
-      "bytes": 58483425,
-      "sha256": "bff704c3e383da62e9643d1d0fd40fc22541e5a562221bde3b6edbce5d97e81d"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-mac-apple-silicon.dmg",
+      "bytes": 58976783,
+      "sha256": "06620e56fb5d8d71c224896eb1c650f8c1b8564657411647a1adeef2e18f3549"
     },
     {
       "platform": "mac-intel.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-mac-intel.dmg",
-      "bytes": 62975654,
-      "sha256": "b2dc849a7c6b6c3a5695bfd90a4779896419e784a45c8167c42083ccfc412415"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-mac-intel.dmg",
+      "bytes": 63355284,
+      "sha256": "7748ca4da725a58b23537b7cd3555c848dfb0a8009cd1963cc9ce2a7c758b74a"
     },
     {
       "platform": "linux.AppImage",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.3/RavenVault-Desktop-0.4.3-linux.AppImage",
-      "bytes": 87587320,
-      "sha256": "ce6a497781bafdd2b027d6d41028e4cdb58ff78a3197d579a4067a2100a14388"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.5/RavenVault-Desktop-0.4.5-linux.AppImage",
+      "bytes": 88484344,
+      "sha256": "82515e82cdfd9a3d7a67874c36dae32e8f0777fea9e54ff489c5bd4acd931be7"
     }
   ]
 }
