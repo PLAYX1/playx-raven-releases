@@ -1,0 +1,55 @@
+{
+  "version": "0.4.7",
+  "notes": "RavenVault Desktop 0.4.7 — 0.4.6 다음 판입니다. 화면 고침: 0.4.5·0.4.6 에서 숨겨 둬야 할 창(「손님 QR」·「무엇이 잘못됐나요?」)과 칸들이 앱을 덮고 있던 문제를 고쳤습니다 — 창 보안 규칙이 화면의 모양 지정을 막고 있었습니다. 되돌릴 수 없는 일 앞의 8초 취소 창 막대도 이제 제대로 차오릅니다. 증명서 새 양식: 수료증·증명서·감사장 세 양식을 A4 한 장에 맞게 다시 그렸습니다 — 받는 사람 이름을 가장 크게, 아래에 발급일·발급자·서명(도장) 세 칸, 오른쪽 아래 확인 QR. 글꼴을 앱에 넣어 어느 컴퓨터에서 인쇄해도 같은 모양. 발급처 로고·도장 그림을 올릴 수 있고, 사진 칸(3×4cm)을 켜고 끌 수 있습니다. 미리보기가 깨져 보이던 것도 고쳤습니다. 한 번에 여러 장: 샘플 표(엑셀·CSV)를 받아 명단을 채워 올리면(엑셀에서 붙여넣기도 됨) 확인 표에서 줄마다 고치거나 뺄 수 있습니다. 사진은 여러 장·폴더째 올리면 파일 이름으로 사람과 짝짓습니다. 발행 전에 장수·체인 수수료 합계·지갑 잔액을 크게 보여 주고 모자라면 단추가 잠깁니다. 50장씩 나눠 발행하고 끊기면 이어서 합니다. 끝나면 전체 PDF·한 장씩 인쇄·번호 목록 표를 받습니다. 명단과 사진은 이 컴퓨터 밖으로 나가지 않습니다. 라비(AI 열쇠가 있을 때): 증명서 문구 제안 3개, 명단 사진 읽기(읽은 것은 반드시 확인 표에서 확인). 영어·일본어·중국어 화면 말도 다듬었습니다. 기존 지갑·가게 데이터 위치는 그대로입니다.",
+  "pub_date": "2026-09-24T18:05:14.981Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXVYM1VwaXdaUnJiN1NyS0FzVFdQS2NobTlYMWMzenNXaUJ3S0trbHEvZjdVd25CWUtMY3RtVDhKSTRPRXVNbTNtQmtYWmR0andjaWNMYk1tUUpXOVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjcyODEzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC43X3g2NC1zZXR1cC5leGUKWDFPUjJNdExqRVVQOFh3c2dSYnN3Wjg0Zkd4S1M2T3pCYlhwVmJyNDgzVmlDYStZdEJ1MFVWQmJxMzRoY2FZWnVEa000QjBESzZacTdxNmxaSDBrREE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXRaM3dBTjd1QytYT1NVbUF5Tk8zVmdZVVdiZUZWdGJ5aHF4bkh6NlJlRGl2ZENGbjBpekU4UGxBWFdoaXBOYWJYbnZzNngybE9mNXNlMEtLTGp5RHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjcyNzA0CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKSmhpU2FFc0lER3BwQUY3U2p6Vk1lYlp3cm4rYWZva2pFODZCa1p3Z01iRExpekhCNEdWaE9JRmRGY2JEbm8yWm1JeW5pSGovbjFUWWtRS3MyaUhtQVE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxOREdJYTlJMVhyRzJDcVlRUVlLOUUrSk03d1JEcWZWOG1tTFFmNG0xNzArTUpocDdGU0h1RTFZS0tHOERMd0JYMFprblliU0ZTZDkzd1QzaG9QcHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjcyNjI5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKUUxnQjVJRVFsSW1KZG9rSC9EYmVsb3dhSXlqUXlib3JXNVJJTFgxcTJFRXhlTDRNemt6QlJBSmxjNDRGb0QyNXdyYzR5OUptVFBJUFZQcFJJNmJvQXc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW5JZFNMRFNKdnFxZ1pYcjZhazl1a1d0MEcxRkd0YjN5dTd2aEVDb0I4cUhJTUs0OTRXOTN1bXJMc25aU28vVkNKQXAwazBLdjQwU3dWcHZUZVI3WmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjcyNjMxCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC43X2FtZDY0LkFwcEltYWdlCjdUZ05ZdmtIaWhhU3VoRkwrR1VCUnBoYVBrQ1crQmQwY0NLNEZqQXV2VFpzUVpuK2N1K3JSM1ZmeElzSGRWZ0V2WXJGWFV2NVgzZTYxT011OCt5dUR3PT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-windows.exe",
+      "bytes": 49579355,
+      "sha256": "f717ea09065e87e8be7372e63263b74abf12196a821f4838023eb151930eb001"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-windows.msi",
+      "bytes": 61222912,
+      "sha256": "40740c936566ebd32170b4d07ba1c9fe9a4eaddf0813af7b3c32cc83e937f79e"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-mac-apple-silicon.dmg",
+      "bytes": 60451055,
+      "sha256": "7391465f21d59cbe8f7b4654a3b5eaf9c5b0b83b1616abb75d6c0b3740181bcb"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-mac-intel.dmg",
+      "bytes": 64959894,
+      "sha256": "aa0a966fc86e90a1821544091a4eea4312f9d4b3828899dd3888259656290114"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.7/RavenVault-Desktop-0.4.7-linux.AppImage",
+      "bytes": 90094072,
+      "sha256": "120d0446444b7c6806c51f1239896f934dbf9c2aaef5c72c222fb1236335f6a8"
+    }
+  ]
+}
