@@ -1,0 +1,55 @@
+{
+  "version": "0.4.9",
+  "notes": "RavenVault Desktop 0.4.9 — 0.4.8 다음 판입니다. 12단어로 지갑 되살리기: 복구 단어(12·24단어)만 적어 둔 분도 데스크톱에서 지갑을 되살릴 수 있습니다. 첫 질문 「복구 단어 12개로」, 지갑 메뉴, 백업 되돌리기 화면에서 시작합니다. 단어를 칠 때 자동 완성과 단어 목록·체크섬 검사를 해서 틀린 단어를 그 자리에서 알려 줍니다. 폰·웹 RavenVault 와 같은 단어면 같은 주소가 나옵니다. 지금 쓰는 지갑은 지우거나 덮지 않고 옆에 둡니다 — 돈이 있는 지갑이면 백업을 먼저 권합니다. 되살린 뒤 옛 거래를 다시 찾아 잔액·자산·증서를 보여 줍니다(장부 전체를 가진 컴퓨터는 30분~2시간, 가게 모드는 마감 뒤가 기본). 단어는 화면 캡처가 막히고, 시작을 누르면 칸에서 지워지며, 로그·오류 보고·파일 어디에도 남지 않습니다. 되살린 뒤에는 지갑 암호를 걸어 두세요. 기존 지갑·가게 데이터 위치는 그대로입니다.",
+  "pub_date": "2026-09-25T13:25:12.138Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXVhcXNqWW9mQnE5TEloRkNYN0JRa2QrRHRzUWtDUXNCSkdZMTdXckFxZEp4M2xHaE9tQUc0MDJRR0xiY3dtT2ZGS2ZKY0EvSzJiVDVPRTJEYUZzQndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQyMTY1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC45X3g2NC1zZXR1cC5leGUKUkkzWVRQeU1YWS91OElBWXVManRoY2FsK1VmdjJrNHl3NWVCY1V4NVBxaWVCY0JQaFByZUUzTDdrWjZkeVFaOVYvOTRrMHhZa3JTMk42eDhEWVFEQWc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW1RckMydnk1ZlZjb2ExNWVKZ3hUemVGZDlSYnNzSHEvdGtZRlMrOTdkcHFrM3pOa1FaV1ZXL2xVZngwZ0tKTzRHUkRISUg0RjNBcHNIbTR2djlpRkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQxNzc2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKdFB3YW9hVXlWLzN2VExKVCs1d0VNYnZZdGJwOGtITnQ1b1d4UWFsQnhEaUlsd2Q1MGg1d3BGV3FSMlBGbXFDUUFvS2dqRXVKSVpZdjVKdG4xc2JuREE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW15eFVHVS85RjFTTisrRE5STUViT3cxeUJ6cmRJRS90cnR0RkthQzFWQlJOUmxDUlN6em9VcjNoemNIenJXRWV3Z1NxMFF5dnJ4MEUvaFl4WnFidkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQxODY4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKRnhuUmFvc2xPYnNCN0ljdksrN2hjTVplYjhxNFFiREEzQkZWaVNOQTQvMTFuakhqWFAzNG9XdkxqSWZJWURHRHBSZVhPZHVBemFHaHNHcmg4VTgrQWc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXVNQ0poYWQvR2FrbWxkbFdBUlZReTQ2WWRTMDFUcDhVT2NkWVRvZlc2cFJBckw3aENPbTVmR1RQTzVWYWg5VEh6Yi94OWJCMkZhTktXWDVuKzNLUmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQxODY3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNC45X2FtZDY0LkFwcEltYWdlCkV5NmZtNDluS2dDTkFPRlVHNlM0VEFiT09ML1pzNDBHTWE5VSt6Y3VFZExscmpuQWlQY1FyRUhsbXVGQ3ZkaG5pRkJ0TWcyT3lKQ0ZkejVkZ1BHV0FBPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-windows.exe",
+      "bytes": 49793324,
+      "sha256": "dd5a9d7c75768d75ab14d0c42b09c1c5f957dbf450afb207c9ab6d1ff776e33e"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-windows.msi",
+      "bytes": 61550592,
+      "sha256": "439340bcbdfe09955e90537102aa5c2360d4a16e7e3cd06d10ed386884299998"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-mac-apple-silicon.dmg",
+      "bytes": 60670885,
+      "sha256": "3018ef5899fd28df152de33cd5de6f5afa3fddbd985906edece1cb848468a911"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-mac-intel.dmg",
+      "bytes": 65225618,
+      "sha256": "a14d2ccdebfcbebf0e32a51ae514a690b43be36aa235ffda7eb3495ee9c4082b"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.4.9/RavenVault-Desktop-0.4.9-linux.AppImage",
+      "bytes": 90286584,
+      "sha256": "e656041ac3d568863fbd0fa2fd5f6f8d35a55325a63c5176d60bacc2cd4ccb94"
+    }
+  ]
+}
