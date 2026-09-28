@@ -1,0 +1,55 @@
+{
+  "version": "0.5.0",
+  "notes": "RavenVault Desktop 0.5.0 — 새 모습 밤 까마귀, 표정이 바뀌는 라비, 어두운 화면과 쉬운 대화 화면을 담았습니다. 라비 AI 키는 맥과 윈도 보안 저장소에 보관합니다. 폰 연결(RV6)과 가게 직원 폰 봉함을 사용할 수 있습니다. 지갑과 가게 자료는 그대로 이어집니다.",
+  "pub_date": "2026-09-28T01:09:28.570Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWkyWVNwNk1FVm5uazF5YTVZejRzQ0VrNGFaMHBPTVRsaHNhdjlEQ1NrVkdzZ2JnM0RyZWNmNTN2SHpjNXNjOHh4WnVBbCs2TFJtMmtObTJxOGJMY3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTU3NDI2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNS4wX3g2NC1zZXR1cC5leGUKR2lhQ1cxYW1ycWJzZFNaaFh3Zkl6dlRnSmk3YVViTjJWbExPZkFGYXNHcXY3YlhjNFdxQ29XNzVnQkt4QUI5MVdtdDR0U2RxWVJXTmhic0ltcWhKQlE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXI0alMyaExLZ0xMWHFqSy9yeFNDWEs5QWNGcTdzenJtY09jaE41enFwODF4Qzk4Z0psL3kyWS8vbFVoNXRKNDlaWHFURWZuckRGOFJMRVFBSFM5dndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTU3MTc4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKSTQ4ZFg4bGZNcVFDSEhGRWdlSUVoRVovNVN0NHhsRGZPQWk3emMvM3lscGVrVW5CTnJDeGlXVHFYNnFCR25QZngybWg4bDFzYnlwYnV1WnQrNnJaRFE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlvdWtDU2crem5BWWIxN250SDVWdjdNV0IxYVo4bWNPY0hlSXFCY0tnZGtPc29xdklPNUoySzZTUUVJMG5Ham1IZHorK29yVU45NDVyeDBFVVREdmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTU3MjAzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKb2kyY1h2Y3BqcExZamh3SUk5Y294WmZieVJ5WEo3cWs3c2FCVkRzc2pqdTdQeXcwYXpVdVNMS1Ava0hEdU51QmJ4a2svdTJBRW8xQTd0dnVRaWZnQkE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWpHMzMreEVIL25YOEIwSmM1WlFub2Q4QVRxdE5Lb3dTRmZnVHdaSU1zRVdpanhUSHRkVXVhN1NyYWRyM2hJOGRZcksvTmloQzBVL1J1RlVobWx0dGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTU3MjQzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNS4wX2FtZDY0LkFwcEltYWdlCkoyRStkZ0dVWVBqL2htVm5Qak5OTXhDeWxodExWWVFPbjBuRW5wbXd0WHB3MzZ6REN6Z0RHRDIwRFhORWh6aVpyWFd2VllZTCtHV211M2FIYmFCU0FnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-windows.exe",
+      "bytes": 51730750,
+      "sha256": "9475d0cc0cd0f825fc4603b4b562bcbefb052d72dce5c988a95030f1c11341aa"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-windows.msi",
+      "bytes": 63590400,
+      "sha256": "fb5e32ecda3cc7a81d637c8ff0eb818c824841bb1efb3f0ff31c7fd0a17931df"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-mac-apple-silicon.dmg",
+      "bytes": 62709016,
+      "sha256": "759b6a852d8485107fe092678aaef204b4230c46d5c1c3c47b07dede3cba53c7"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-mac-intel.dmg",
+      "bytes": 67385625,
+      "sha256": "c26ab3f683daa26366b8cc7bebef537d754579e1d5acfb054960dc137b47434a"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.5.0/RavenVault-Desktop-0.5.0-linux.AppImage",
+      "bytes": 92310008,
+      "sha256": "cee5ee132287574a8418126384182a601e51e2814347c1f8cc0f036444190707"
+    }
+  ]
+}
