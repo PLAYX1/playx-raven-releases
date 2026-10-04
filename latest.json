@@ -1,55 +1,55 @@
 {
-  "version": "0.6.2",
-  "notes": "RavenVault Desktop 0.6.2 — 0.6.1 다음 판입니다. 사진 보관은 사장 인증 뒤 공개 HTTPS 주소로만 연결해 가게 안 컴퓨터 주소로 새지 않게 했습니다. 직원·검표 연결 열쇠는 봉해서 다루고 30일마다 새로 바뀝니다(직원 폰은 새 연결 QR을 다시 찍어야 할 수 있습니다). 직원 환불은 주문에 묶이고 하루 한도를 지킵니다. 가게 공지 글은 서명·크기를 확인한 뒤에만 올립니다. 화면의 말을 서버·완료·공개 장부·사진 보관함처럼 쉬운 말로 바꿨습니다. 보내기 확인 화면에 원화 환산을 보여 주고, 주소를 끊어 보여 주며 처음 보내는 주소를 경고합니다. 지갑이 잠겼다 풀려도 보내기에 쓰던 주소·금액은 남고 암호·복구 단어 칸은 지웁니다. 기존 지갑·가게 데이터 위치는 그대로입니다.",
-  "pub_date": "2026-10-04T17:45:12.544Z",
+  "version": "0.6.3",
+  "notes": "RavenVault Desktop 0.6.3 — 라비(AI)와 보안을 같이 다듬었습니다. 키를 아직 넣지 않았으면 라비가 눈을 감고 있고, 누르면 키 입력 창이 열리며 연결이 확인되면 깨어납니다. 라비가 바꾼 가게 색은 미리 본 뒤 사장님이 저장합니다. 관리자 폰의 메뉴 전체 삭제는 한 번 더 묻습니다. 사장 폰 질문은 사장용 라비가 답합니다. 손님과 사장의 AI 사용 한도를 나누고, 하루 사용량은 앱을 다시 켜도 유지합니다. AI 키를 운영체제 저장소로 옮긴 뒤에는 옛 키 파일을 지웁니다. 0.6.2 — 매장 서버 보안 수정, 쉬운 말, 보내기 확인 화면.",
+  "pub_date": "2026-10-04T18:57:40.320Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW1KQUhEcXR1L3ZoWnVIalF3QVRYenBGeS83a0p1Q2UrR0YvS3lOWjlSSUdDZXpYNG02VmpxcldDak15elljL2JjRUVqelpoMXd0dThZUi84VFlkdGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM1Mjc4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi4yX3g2NC1zZXR1cC5leGUKSFJJZFMvRzZBeThqM0s5R2NETW5yMXVhenNvSEpONCtnZmRPTGtNZ1JpbythVngzaTZmMVR4bmJ5YXJiWGFNWEdlUCttMmp0NkVUbElJR2ZMckQ0Q1E9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWdlbjZ6U0NVSzk4SG9HWkIvV2dZNWoraFlnMVRpVXJIcjhCUVRlR1dNdFhFMHNnK1l0eW41REkxNVQwOTRtK2xjRnQxQ3VlZDlOSkk4c0pJM0ZaL2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM5NjM1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi4zX3g2NC1zZXR1cC5leGUKYnJWQXg2N3Nnd2grYU9nV3F1YnVqTDFNai92TFBXdkRTYmRweG5NOGV6dSt4YjZQTTFGcnFrVWFWTnYycjBFOGZ2MXhMV0RCNC9CMWNnWnRyL1lUQ2c9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-windows.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWdubWZGWUU0cnhKdGI4Tk9nMm5LeGJZeVVxWk5RZ04zdzdxVDhwTUJVNDJBTjNjYm9hVFVyR3JUR0FqdkJrZlNQMk1IVlNBeWlZSXViTnh4NWh4Rmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0ODg2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKdi95KzB2eEFQclNvck1QcVI0d054YndBUFdmK3RmQjlzSXB0OFptWkhsc3pLZFUwdnovSVE0eTdiMUlJdm5STGJDV0tPSHU0ejMzdTJmdU42TlQ2QVE9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-mac-apple-silicon.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWdiRktHTnA4ejBwUERZZDB5QStlZUJvaml3am1EK1hmdW9OK3laSk5KcWJEMkEzRWUrY0lBMGM5bXc2MTA4cFVYM2lSZlBmSjBrMGZjb21EQlkvakFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM5NDMxCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKell2SktrNDkyanlwZCt4VXVCejBONzBia20yNlFkMDB0RVBNSlQyMHlyZEttS2pHcjU1MzZSdlpEdVlRbXhVT1NXRnVmK1FkUHZ6aENDaWJpaEY2REE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-mac-apple-silicon.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW5WZmlMZDdySUdlTlNPeUd0emRQRnVyK1VWWm5jSndoQW9BUkNQVC8rY21jQTB0cUN4U2N5ZUdWeHNINVQ3Sk5CUGQvNzRYVjJSUlNHanloMXBRNVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0NzI5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKaC9hbVRPR2F6MC9pZlhwNEs4R0dSK1g3NjI4Z3g1WGlKenF0aDh3a0R0bElENFRSaUJwdmViWXlXajdOeEJCcEkxV21CNElMZm9xOG1ZRHR3QlJ3QVE9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-mac-intel.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlUVFBUWDg2ZDZQVFdpSUxaQ29mbWZQdGR4dGs3c1pwd2ZJZTZYcG1Cc0VyRksxc0hvclUwM1hxRm5icWlyZ2M4WjVTU2ZEQjJtN3p2MDhKVDlQOFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM5NTk4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKZ25TN01abkp6UkhtdEh3NjlmdDVQYWswblM5a2NDQ28rSUZodEROQyt3eng2MWtuaHp1L0lJWFZxY0orVjl1L3FsZStYSC9qUitRZ1hzdm1aTDdUQlE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-mac-intel.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXE3d1Z4ZEZLblZTQmcvR2JqNnAxRUhld2FWb280OVo4Z2lwU0x5OXBzV1lBSmdjK3JyYUJZNFoyWXVybjdCdjBVTHlnOHY4M04rS1FvU2lFNk5BSlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM1MDIxCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi4yX2FtZDY0LkFwcEltYWdlCmRqSVU3cm9GOGp0YXFZLys3akNFOFZFczFpaTdYTjN2WGlCc00wTWp5WGZVSEsrVENsOEEzSGFUOFZONXYyVzlpaVN2L1BOcmZCV3IxdnJSVVJ2Y0FnPT0K",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-linux.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXBKUTE1VnpRRXBpNHc1eXNOUTBUcTBKOGNKUVpEenZXSDZPOElhNGVJL25HTkhKMmtiZXJPWGNzS2ZJYmZRalNyNmJhSmdDWlQ4TDRHTndIWEN6Q2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM5NDU3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi4zX2FtZDY0LkFwcEltYWdlCkt6SVlaRklGYUJ4b2xnMVR0NVptL2VVNGtnZFg4b2tnSUZFK1paWHkrWkFZbWptdVk2Q3RwUFlEQi9jcG1ZTjlpWWFtcEZMWlM3L0FhamhhYTdYMkFnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-linux.AppImage"
     }
   },
   "installers": [
     {
       "platform": "windows.exe",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-windows.exe",
-      "bytes": 52102372,
-      "sha256": "769f8655d502c514f46e45cfded7deec0d87749b471318c2c50ad5ebee8685d6"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-windows.exe",
+      "bytes": 52081853,
+      "sha256": "c1a2b92539d4a9cd0bfbc0ef0a8aebf86a859911fd57941bf4f9a105bb973506"
     },
     {
       "platform": "windows.msi",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-windows.msi",
-      "bytes": 64180224,
-      "sha256": "631750eb60823d9814f2a27fabae438d3d74dc1b199845f2cb21469a4bf71cb9"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-windows.msi",
+      "bytes": 64102400,
+      "sha256": "b3d338875b1a1f66d5f58958843cba1f410e40247a07fa676ebbf467990dc8ca"
     },
     {
       "platform": "mac-apple-silicon.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-mac-apple-silicon.dmg",
-      "bytes": 63631711,
-      "sha256": "07b9060aa7eb0efa639d1a96f53f11c7c093be79dacb910aceb1362e3d57f367"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-mac-apple-silicon.dmg",
+      "bytes": 63649813,
+      "sha256": "cae8b7280e4d19ea8390c91cab683e9eb2423f1b7273f8fba0d5f068e71d1e18"
     },
     {
       "platform": "mac-intel.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-mac-intel.dmg",
-      "bytes": 67751767,
-      "sha256": "ba6d9dc071de630141a5a91892aafedc1e3c7d37846aa29bf0f1ed138e9fe552"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-mac-intel.dmg",
+      "bytes": 67756776,
+      "sha256": "5e1cfdad85f46a435604ade782e2bdfa3491dbf7d7c4d9c007e792214d93db58"
     },
     {
       "platform": "linux.AppImage",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.2/RavenVault-Desktop-0.6.2-linux.AppImage",
-      "bytes": 92580344,
-      "sha256": "97331e9004611a2df97515d232c64eeaf8c84afd2fd93b535565b38191159c4c"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.3/RavenVault-Desktop-0.6.3-linux.AppImage",
+      "bytes": 92711416,
+      "sha256": "4c87d6bd3ca86f3fd1bd8a7cab739043eabb2a1ce45792f3ee00ae25e5282221"
     }
   ]
 }
