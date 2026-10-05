@@ -1,4 +1,4 @@
-# RavenVault Desktop 0.6.7
+# RavenVault Desktop 0.6.8
 
 공식 설치 안내: https://ravenvault.ex.erci.se/download/
 
