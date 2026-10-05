@@ -1,0 +1,55 @@
+{
+  "version": "0.6.7",
+  "notes": "RavenVault Desktop 0.6.7 — 홍보 도우미를 고쳤습니다. 「레이븐볼트 홍보 글」을 부탁하면 이제 가게가 아니라 레이븐볼트 앱을 소개하는 글을 씁니다(내 가게 / 레이븐볼트 앱 / 직접 주제 고르기). 샘플 메뉴는 홍보에 넣지 않습니다. 채널마다 한글·영어 해시태그를 붙이고 태그만 따로 복사할 수 있습니다. 공유 이미지 단추가 늘 켜지고, 가게 주소가 없으면 레이븐볼트 주소 QR 로 만듭니다. 0.6.6 — 라비 홍보 도우미.",
+  "pub_date": "2026-10-05T17:35:50.672Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlFRjY5MG5PcVc2UkNmU2w0ZGp0R0U2d0RQTG9INElxVjlJcHBnV0Z1NHNWenoycVpwYld0ZmN5Nlo3TDlMNnpBbkJXRmU4QmFPUVlDTU9FelBydFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjIwNzA4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi43X3g2NC1zZXR1cC5leGUKc1dDYmR6aitOYzN6RSs5aVlBbFlpQzZySkhZOVcxYmtXTkJkQkF0S1JYUUVuYkdtMi9acTZoTTkvTDFmb2o4RG13THBMai9pOFgwT3RXQ1pHTUs2Q2c9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW9KejZZdjBlWjIrRmZyV1JCSzFaVWhGOXYwbHQwV2pQK0t5aWwyOU00RVoydWI1Vis0V21BY3h2N2s0cnczWnNxM1hoRDM0OC85STR4U3A0SjlIN3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjIwNTY5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKOEJuS1FXbVRwdnFCa1dBNXdTY3FxK2V5U2FTeXJkeWExTi9nemtqMGs3RnMrdExJRTNSR1JWOGhveXI3QmhrSzUveEJyL3JDOG9saUhYNkI4ZGk3QVE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXFKSnFEV3JheFVQNVpiaDZzVW5NWDA1UmhNWGc0Ri9oUTNUWGtqWm1hUHVHWUNrWmhRN0RuU3UwcHNaWGoxNEVOOHlSNlFGcGdqSm5vdyt3MHgwWmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjIwMjg3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKNlZHTkw4V04vSDhXKzN2dlZBQU4yQ09KK0ZsemE5ZytrcDZQQlV2N2pWNUJJRlpaRGVQNUpJZm1PRXJVU3pBek03eGxrSnJhcElwZVRwM0JzQkNyQVE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW5HTnd2UFBWYXlrMnJycHYvbVBiaUZKeEZxUGVlUk5MOGRFVlgwWnR6UHZEampsRmxPY29GV3pqKzVUSkUrV0ljK0pzbmVXUUg1UEhhSzBSejgzMGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjIwNjE0CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuNi43X2FtZDY0LkFwcEltYWdlCjBWek1rK3RaYWZqMlpkdi91eEVrRTRBQzFLSWQwWXg2VlBXblc4SjVmcC9LQkNkQSt1dFVYM2lsY1lzNElFajFIMjgxRFQ0d2xWMS9QR2ZVUDR3V0JnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-linux.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-windows.exe",
+      "bytes": 52072595,
+      "sha256": "2e8c3bbfe96518b89f088afbee8a84b96e7537413efa7aff4e0cf30691390a3c"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-windows.msi",
+      "bytes": 64090112,
+      "sha256": "c9c277ea96a5d9bfbf2febf848465f7eb9fe394c6f7ac94249605c13215e061c"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-mac-apple-silicon.dmg",
+      "bytes": 63701681,
+      "sha256": "27a8ab501aee5b8a3b5f4d2f962b07e5be8e0b0c3590bfbcc2ebe9d02a989d46"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-mac-intel.dmg",
+      "bytes": 67836337,
+      "sha256": "d9c50ea70e62cb5d861e3e131b5dfce779060b8cea622f26097c5695c8c98207"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.6.7/RavenVault-Desktop-0.6.7-linux.AppImage",
+      "bytes": 92637688,
+      "sha256": "c39dbda35dafbdfe66a6c2ce9dd0ddf3ebe94324f107ed70c457ee17891629c2"
+    }
+  ]
+}
