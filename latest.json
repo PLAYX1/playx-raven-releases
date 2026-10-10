@@ -1,23 +1,11 @@
 {
-  "version": "0.8.3",
-  "notes": "RavenVault Desktop 0.8.3 — 라비는 이제 트레이에 조용히 상주하고 필요할 때만 말풍선으로 나타납니다(항상 떠 있기는 설정에서 선택). 첫 실행 때 손님 QR·대화창이 먼저 뜨지 않고 라비가 날아온 뒤에 인사합니다. 채팅창 마이크 받아쓰기(권한 안내 포함), 잠긴 맥 키체인 안내와 암호화 보관 선택지, 금고·용돈 지갑 설계 기반을 추가했습니다. (0.8.2 는 윈도우 설치 파일 빌드 문제로 건너뜁니다.)",
-  "pub_date": "2026-10-06T18:18:36.449Z",
+  "version": "0.8.4",
+  "notes": "RavenVault Desktop 0.8.4 — 게임 판매 대금 받기: 비밀번호 재인증 후 판매 전용 xpub·QR·처음 주소 3개 표시, 1분 자동 숨김, 기본 주소 100개의 확정 금액 조회, 내 지갑으로 옮기기 안내. 라비 스토리를 기본 브라우저에서 엽니다. 서명된 업데이트 버전·해시·순서 검증을 유지합니다.",
+  "pub_date": "2026-10-10T04:44:44.398Z",
   "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlxaVA0bzZWZ3JVS0JnWmhwSytlM2ErczF6eU9mZWd5N2F1TXJKUnpVeDRPNFdLMXkwRUtLTWt3VlRleFNBVWJ1bThFUjlnWS80Y2RPdHBjSElQRFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA5OTA1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOC4zX3g2NC1zZXR1cC5leGUKa01VWDhYM1cwaVQzeTZwaXFqZVEvNG0wbG9NU0x4VzErMkpIcU5RTEk4cDd0SU0vM3FhdkRXL3lSRWh1TW45SXpkY3RNS0h1OG14NTcvOG1LZjBJQ0E9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-windows.exe"
-    },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWhlZ1dWRzdmZ1FZZTUxV0Jmc1RmM1dpeXF5VzlERVgxR0pPQnhrMHFydG9oZDgwYkxsc3FLSm1xR253bkFsS3o4SFFTQ1ZQbmdNdSsrZzF3WTVIdGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA5NTE5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKeDlNdElEZk12WDN0NFdQS09IRGx6dGNIV2lqNmo0Z3llL0MwQ1Nvbng1ZWE1WE5OUnJDMjJpRjU1SWlYL1Z1SnBXa3dQWG9aTGt2TFNHbXlIRHh2RGc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-mac-apple-silicon.tar.gz"
-    },
-    "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXZyWXN4VXRxY1hJUkJ2b3ZiU2M4WFV4T2QxdWZlSXBDNWIrMURDQy9QRU1uWDZ2Zm16RnN3T204YkhKakdSYmh3bGJuWGxZV1dHd3Bub3lsQmlYNFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA5NjgwCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKSDg5TE85U1did21BNm5VaHdOYXY3UlRUcTZkTkxrZWJRNXlWY2NibEZhNmk3M1BlMkdMK25UdWRjOFFIeHJqRGJpNUM3WXhlMXYvc0xCbXB1YmZ1REE9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-mac-intel.tar.gz"
-    },
-    "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXN3QXVxekRkZURQaHVxMTRnaGM0a2I4UFcycWo2TEd5Vm9nRTBoLzgwRm44UDB2TkM2cjlWTmUzM01wR1BXQnRUZk9kYVRac2I1M1oyMkJaWStpZHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA5NzExCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOC4zX2FtZDY0LkFwcEltYWdlCmY2enRCR2R6dytvWkMrQ0o4b0dVVTVvMHhYVG0wVFduYmRNa2xSbWc1MnRZcnN1eWUwK2hmWjlNY2RNcVA4RDZ0citEdnpBMUlqa0o5eE1IamhOZ0J3PT0K",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-linux.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXNoQ1N4VGpnMjk3TUpCWlJwWS8xd2J5Mmszd3p6SW9PREpPSUlWa1dqQ005QlpzdU9Od2RyZlJKTHM5OEFxQVpFZXJ6NklWbm5lSHFhc0xvOUxtT0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjA3MjU3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKTDF5cnhwamo3L05lejROSHR0Z2h1SklMdWtOeVUwSnJuRWhVRHVSWVpEOUJwTCtCVFArb0JOSzJYcXcrSHdXcVZ1SVdDYW9Pa01BT2VkZk5lbGdxQnc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.4/RavenVault-Desktop-0.8.4-mac-apple-silicon.tar.gz"
     }
   },
   "installers": [
@@ -25,31 +13,41 @@
       "platform": "windows.exe",
       "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-windows.exe",
       "bytes": 52516618,
-      "sha256": "95749d7ddca1494587d67c4400d7dff4fad9537632501bdf8205c501884ee941"
+      "sha256": "95749d7ddca1494587d67c4400d7dff4fad9537632501bdf8205c501884ee941",
+      "version": "0.8.3"
     },
     {
       "platform": "windows.msi",
       "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-windows.msi",
       "bytes": 64757760,
-      "sha256": "e95451be460aa7e206ad7bc1829319050d0d57ada3195e22223570f63ddca379"
+      "sha256": "e95451be460aa7e206ad7bc1829319050d0d57ada3195e22223570f63ddca379",
+      "version": "0.8.3"
     },
     {
       "platform": "mac-apple-silicon.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-mac-apple-silicon.dmg",
-      "bytes": 64242629,
-      "sha256": "79290085152b0e6e6a60249d9fd28f07519f9a2ef184826fb4b1bcde965522ea"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.4/RavenVault-Desktop-0.8.4-mac-apple-silicon.dmg",
+      "bytes": 63689428,
+      "sha256": "6d46156d3dd753632cc6b8ba7df2b24460ee18a6aa62cec4d2b58a82bcb9f9cf"
     },
     {
       "platform": "mac-intel.dmg",
       "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-mac-intel.dmg",
       "bytes": 68245301,
-      "sha256": "f5a304eb0c1c8b4036442ec8d8da7f092b4f05c3577f159db7bcd93a9c6cd598"
+      "sha256": "f5a304eb0c1c8b4036442ec8d8da7f092b4f05c3577f159db7bcd93a9c6cd598",
+      "version": "0.8.3"
     },
     {
       "platform": "linux.AppImage",
       "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-linux.AppImage",
       "bytes": 93178360,
-      "sha256": "9d3324fc905c63bd52ef01f856e7653783126b2394c505dbcc04eca23d269f66"
+      "sha256": "9d3324fc905c63bd52ef01f856e7653783126b2394c505dbcc04eca23d269f66",
+      "version": "0.8.3"
     }
-  ]
+  ],
+  "signed_releases": {
+    "darwin-aarch64": {
+      "statement": "{\"version\":\"0.8.4\",\"sha256\":\"a2ef7ea1bf57785bc70d4523148cedcb89370cc061874ebfa8d0477c25a45b5f\",\"target\":\"darwin-aarch64\",\"expires\":1794199379,\"sequence\":2026101001}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1tGpDgkWPG2VCS5KsIFGNTaeU5U9+qBWxk67G2vPG4XBt2aZVY2djFSoqRHwrwmS5qnfQigUOuuLAgXCr+QpwQg=\ntrusted comment: timestamp:1791607380\tfile:darwin-aarch64.json\nQBH7BQJS+LK3ctn6Ihv/Oo6RI0CralX88W7xCo5utAKO3FJqs0ZaUmc1s/YhNfbWaOmdtAz7EW4IBLJ+JLKVCg==\n"
+    }
+  }
 }

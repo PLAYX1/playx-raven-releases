@@ -1,0 +1,53 @@
+{
+  "version": "0.8.4",
+  "notes": "RavenVault Desktop 0.8.4 — 게임 판매 대금 받기: 비밀번호 재인증 후 판매 전용 xpub·QR·처음 주소 3개 표시, 1분 자동 숨김, 기본 주소 100개의 확정 금액 조회, 내 지갑으로 옮기기 안내. 라비 스토리를 기본 브라우저에서 엽니다. 서명된 업데이트 버전·해시·순서 검증을 유지합니다.",
+  "pub_date": "2026-10-10T04:44:44.398Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXNoQ1N4VGpnMjk3TUpCWlJwWS8xd2J5Mmszd3p6SW9PREpPSUlWa1dqQ005QlpzdU9Od2RyZlJKTHM5OEFxQVpFZXJ6NklWbm5lSHFhc0xvOUxtT0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjA3MjU3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKTDF5cnhwamo3L05lejROSHR0Z2h1SklMdWtOeVUwSnJuRWhVRHVSWVpEOUJwTCtCVFArb0JOSzJYcXcrSHdXcVZ1SVdDYW9Pa01BT2VkZk5lbGdxQnc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.4/RavenVault-Desktop-0.8.4-mac-apple-silicon.tar.gz"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-windows.exe",
+      "bytes": 52516618,
+      "sha256": "95749d7ddca1494587d67c4400d7dff4fad9537632501bdf8205c501884ee941",
+      "version": "0.8.3"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-windows.msi",
+      "bytes": 64757760,
+      "sha256": "e95451be460aa7e206ad7bc1829319050d0d57ada3195e22223570f63ddca379",
+      "version": "0.8.3"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.4/RavenVault-Desktop-0.8.4-mac-apple-silicon.dmg",
+      "bytes": 63689428,
+      "sha256": "6d46156d3dd753632cc6b8ba7df2b24460ee18a6aa62cec4d2b58a82bcb9f9cf"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-mac-intel.dmg",
+      "bytes": 68245301,
+      "sha256": "f5a304eb0c1c8b4036442ec8d8da7f092b4f05c3577f159db7bcd93a9c6cd598",
+      "version": "0.8.3"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.8.3/RavenVault-Desktop-0.8.3-linux.AppImage",
+      "bytes": 93178360,
+      "sha256": "9d3324fc905c63bd52ef01f856e7653783126b2394c505dbcc04eca23d269f66",
+      "version": "0.8.3"
+    }
+  ],
+  "signed_releases": {
+    "darwin-aarch64": {
+      "statement": "{\"version\":\"0.8.4\",\"sha256\":\"a2ef7ea1bf57785bc70d4523148cedcb89370cc061874ebfa8d0477c25a45b5f\",\"target\":\"darwin-aarch64\",\"expires\":1794199379,\"sequence\":2026101001}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1tGpDgkWPG2VCS5KsIFGNTaeU5U9+qBWxk67G2vPG4XBt2aZVY2djFSoqRHwrwmS5qnfQigUOuuLAgXCr+QpwQg=\ntrusted comment: timestamp:1791607380\tfile:darwin-aarch64.json\nQBH7BQJS+LK3ctn6Ihv/Oo6RI0CralX88W7xCo5utAKO3FJqs0ZaUmc1s/YhNfbWaOmdtAz7EW4IBLJ+JLKVCg==\n"
+    }
+  }
+}
