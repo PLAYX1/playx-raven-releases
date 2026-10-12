@@ -1,6 +1,6 @@
-e3ce76c60703312a3b5fa9b6b85df15107e6923082e8fcd22eea509a5a3d79f1  v0.8.8/RavenVault-Desktop-0.8.8-mac-apple-silicon.dmg
-5f398f76f6a471212475ccae295c40524c897788b98bd26113059f4bfad1bb1a  v0.8.8/RavenVault-Desktop-0.8.8-mac-apple-silicon.tar.gz
-bf0e8d1087bed7d152a6d187d1252765a6e2c21a910fcc56c4943715358dc1e9  v0.8.8/RavenVault-Desktop-0.8.8-mac-apple-silicon.tar.gz.sig
+73bbe4f927f9a6240e3da1e3fceafabbe2c27dd3915f81e4a512730dad31c38e  v0.9.0/RavenVault-Desktop-0.9.0-mac-apple-silicon.dmg
+f82e2d9ea82bf555030adc92b423647c5df7f1d3e49380b5eecd2f07f4c2c952  v0.9.0/RavenVault-Desktop-0.9.0-mac-apple-silicon.tar.gz
+674ef4e83dd47fd2231e9fe78a8c7758912a3f7e8598b7f701b047273d9370f9  v0.9.0/RavenVault-Desktop-0.9.0-mac-apple-silicon.tar.gz.sig
 9d3324fc905c63bd52ef01f856e7653783126b2394c505dbcc04eca23d269f66  v0.8.3/RavenVault-Desktop-0.8.3-linux.AppImage
 b6d2e836523acf03a6b38b7e85459597058d2195c8a15e3e2c63317618fc8e20  v0.8.3/RavenVault-Desktop-0.8.3-linux.AppImage.sig
 0619b8a38974f9ac0ce79948b0124180cac15c44ce0b31775c3e0b49c073d13e  v0.8.3/RavenVault-Desktop-0.8.3-linux.deb
