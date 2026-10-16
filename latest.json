@@ -1,15 +1,15 @@
 {
-  "version": "0.9.1",
-  "notes": "RavenVault Desktop 0.9.1 — 인텔 맥(x86_64) 설치 파일을 추가했습니다. 윈도우·리눅스 지원 준비로 윈도우의 가게 시간대(늘 UTC 이던 것), 콘솔 창 깜빡임, 노드 정상 종료와 리눅스 설치본의 노드 경로를 고쳤습니다(맥 동작은 그대로). 자동 업데이트 대상은 맥(Apple Silicon·Intel)입니다. 0.9.0 변경: 설정 화면을 왼쪽 목록과 한 주제씩 보기로 바꾸고 설정 찾기를 더했습니다. 이야기: 처음 들어오면 이름 정하기 카드, 내 글에도 이름과 아이콘, 내가 만든 방의 이름·설명 고치기, 방 숨기기(「숨긴 방」에서 되돌리기). 「내 색」 설정은 없앴습니다. 백업: 이름을 「wallet.dat 백업 파일 내보내기·가져오기」로 정리했고, 백업 파일(.rvwallet·.pxlock)을 창에 끌어다 놓으면 무엇을 되살리는지 먼저 보여 주고 확인한 뒤에만 되살립니다. 레이븐 코어로 옮길 때 쓰는 「코어용 wallet.dat」을 꺼낼 수 있습니다(지갑 암호가 있어야 하며, 함께 든 레이븐 코어 4.8.0 에서 열리는 것만 확인했고 쓰려면 지갑 암호가 필요합니다). 새 가게 이름은 RV.S.<가게이름> 입니다(옛 SHOP. 가게는 그대로). 0.8.8 변경(라비 자기 질문·감정 대답과 위기 안내, 체인 정보(읽기 전용), 자산 파일(IPFS) 보관 화면, 이야기 방 초대 링크가 새 지갑 ravenvault.ex.erci.se 를 엶, 업데이트 단추 「확인 중…」 고침), 0.8.7 변경(wallet.dat 백업 파일 내보내기·가져오기, 백업 열쇠 52글자 종이 적기·인쇄 단계, 지갑 암호 없으면 대기화면·매장용 읽기 전용 거절, Ravencoin Core(MIT) 고지, 화면 언어 이탈리아어·스페인어·프랑스어·포르투갈어(브라질)·독일어·러시아어 AI 번역, 메인넷 자산 발행 안전 스위치 꺼짐), 0.8.6 변경(라비 대화·창 모드·대기화면 잠금·다크 돈 카드 등)과 0.8.5 변경(라비 스토리 카드 글자, 판매자 기능을 켠 경우에만 판매 대금 받기, 어두운 화면 단추 대비)도 포함합니다. 서명된 업데이트 버전·해시·순서 검증을 유지합니다.",
-  "pub_date": "2026-10-12T06:56:41.726Z",
+  "version": "0.9.2",
+  "notes": "RavenVault Desktop 0.9.2 — 같은 집 안 와이파이에서 폰을 안전하게 연결하는 「폰 연결」을 더했습니다(기본 꺼짐). 기기마다 증서를 쓰고, 기기를 끊으면 데이터 열쇠를 바꾸며 철회합니다. 메인넷 자산 발행·판매 스위치가 켜진 채로 들어 있습니다. 자산 발행에는 되돌릴 수 없는 500 RVN 보증 소각이 따릅니다. 맥 빌드 스크립트의 앱 이름 오류도 고쳤습니다. 자동 업데이트 대상은 맥(Apple Silicon·Intel)입니다. 0.9.1 변경: 인텔 맥(x86_64) 설치 파일을 추가했습니다. 윈도우·리눅스 지원 준비로 윈도우의 가게 시간대(늘 UTC 이던 것), 콘솔 창 깜빡임, 노드 정상 종료와 리눅스 설치본의 노드 경로를 고쳤습니다(맥 동작은 그대로). 0.9.0 변경: 설정 화면을 왼쪽 목록과 한 주제씩 보기로 바꾸고 설정 찾기를 더했습니다. 이야기: 처음 들어오면 이름 정하기 카드, 내 글에도 이름과 아이콘, 내가 만든 방의 이름·설명 고치기, 방 숨기기(「숨긴 방」에서 되돌리기). 「내 색」 설정은 없앴습니다. 백업: 이름을 「wallet.dat 백업 파일 내보내기·가져오기」로 정리했고, 백업 파일(.rvwallet·.pxlock)을 창에 끌어다 놓으면 무엇을 되살리는지 먼저 보여 주고 확인한 뒤에만 되살립니다. 레이븐 코어로 옮길 때 쓰는 「코어용 wallet.dat」을 꺼낼 수 있습니다(지갑 암호가 있어야 하며, 함께 든 레이븐 코어 4.8.0 에서 열리는 것만 확인했고 쓰려면 지갑 암호가 필요합니다). 새 가게 이름은 RV.S.<가게이름> 입니다(옛 SHOP. 가게는 그대로). 0.8.8 변경(라비 자기 질문·감정 대답과 위기 안내, 체인 정보(읽기 전용), 자산 파일(IPFS) 보관 화면, 이야기 방 초대 링크가 새 지갑 ravenvault.ex.erci.se 를 엶, 업데이트 단추 「확인 중…」 고침), 0.8.7 변경(wallet.dat 백업 파일 내보내기·가져오기, 백업 열쇠 52글자 종이 적기·인쇄 단계, 지갑 암호 없으면 대기화면·매장용 읽기 전용 거절, Ravencoin Core(MIT) 고지, 화면 언어 이탈리아어·스페인어·프랑스어·포르투갈어(브라질)·독일어·러시아어 AI 번역, 메인넷 자산 발행 안전 스위치 꺼짐), 0.8.6 변경(라비 대화·창 모드·대기화면 잠금·다크 돈 카드 등)과 0.8.5 변경(라비 스토리 카드 글자, 판매자 기능을 켠 경우에만 판매 대금 받기, 어두운 화면 단추 대비)도 포함합니다. 서명된 업데이트 버전·해시·순서 검증을 유지합니다.",
+  "pub_date": "2026-10-16T05:30:15.841Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlYOTVvQy9NMUJ0MjhYMGRWTm5JaVR5QmJDOSttSVFZWEVneGxKQTdRbUFhUTRFWDg0VVJUblp5d2lRaHhZeEZ5dFdsUFRGR0llOVhoWkdhRzU1UUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzgzODkyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKN21xQmdrZzhGYXNzc0wrNEFVYjNPVjYzVHhQSTIyelFWT09WM2FEc3NlN21qTm10QnhOUEJBOTloZmU4VE42UUtIT1dHbzBXMm9vYis2STFHMXBlRHc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.1/RavenVault-Desktop-0.9.1-mac-apple-silicon.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxRWE1aWS9DakhvaTg1Y3h5SVJ1VDRNRTJsa0Nqc3ovZGI2VUY1anEzZjB5YmxicTROcGliZnlScjBpU2xhRHJJckEwWEU2VWF0UDJ6TGtaNU1VcUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTI2NTgzCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKQ2dMYjFHZWZ3NzB6LzJjdCtnczJraCtMRk51YWFDdVJxM1JsbzkwZHAyelRtVVpXMlloS01TcUNOTUFLYlg0angzY2FGQjhCSTJhbEJIbWRvLy80RGc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.2/RavenVault-Desktop-0.9.2-mac-apple-silicon.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXJOSXljRVVnajF3dXpyZXFIMG0zMTZTYkpBaTA0NnVDK2YzMjVmU0xHZm9tb1kyTGZGMVhCd0h0VTk1Ty9yOEQrTUJDbzJvWWJwTmRJTUhvVmZjb3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzg0MzEyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKTWlnSGp5eDEvR0xidUw2VlppektFNlVFYWtPYnhxSWNYRmgxRUZ0b1BDbzR1MkhrY3czaUl4YmN1dVkyMnlDNU80Z2Q2amsxcWplMzZ2aWRmQUpHQnc9PQo=",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.1/RavenVault-Desktop-0.9.1-mac-intel.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWlHRStCdmZodHZraU9BMThMVElkRWN3bWs1Um0weFpuVkcwYm1ReFc1NHRwQUNTS1BrSVorazhYbjV1WVEwN0Nmay9YWnVHMnZoMGY1b2Y2VldsMlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTI2Nzg5CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKRHpSRDd1UWNpcXloUEN1ZUZ4NGNORklsZnJYMTRnTUZjeXFlUWx0RE5OYWRPQVBJNnVMQ1JmK2I1M3hsWU94eENNeEloYUhCK0VObUgrQVZocTlvRHc9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.2/RavenVault-Desktop-0.9.2-mac-intel.tar.gz"
     }
   },
   "installers": [
@@ -29,15 +29,15 @@
     },
     {
       "platform": "mac-apple-silicon.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.1/RavenVault-Desktop-0.9.1-mac-apple-silicon.dmg",
-      "bytes": 65060432,
-      "sha256": "06e5c77af38afe5e358ac7d64087dac11688c070bd845c167fca6589187a84bc"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.2/RavenVault-Desktop-0.9.2-mac-apple-silicon.dmg",
+      "bytes": 65301831,
+      "sha256": "6a286e380757e1f22300569c81f488f4f79c577526f83102f682a33e69406182"
     },
     {
       "platform": "mac-intel.dmg",
-      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.1/RavenVault-Desktop-0.9.1-mac-intel.dmg",
-      "bytes": 70105686,
-      "sha256": "dc43b14aa660d7a5be9c5d5f6acc6459a9c96cf77a190d24a8c6457f4a7dbe55"
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.2/RavenVault-Desktop-0.9.2-mac-intel.dmg",
+      "bytes": 70350863,
+      "sha256": "5acfc9da87903ea431aa21ac18fb5775fcf875a95d24596a1c4f6f1517d55fd1"
     },
     {
       "platform": "linux.AppImage",
@@ -49,12 +49,12 @@
   ],
   "signed_releases": {
     "darwin-aarch64": {
-      "statement": "{\"version\":\"0.9.1\",\"sha256\":\"4cfdf7f23c7b1b270cfec2640ad824c2fd374586ee68a20082bf82fa470c3786\",\"target\":\"darwin-aarch64\",\"expires\":1794376106,\"sequence\":2026101302}",
-      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1nhWP2MUu21Uso3q0+bB112UCHfbkI+wVmrYOI0MYpo5SOJX9HBQqnnIHtZIuDo2ract8smPLlV1mH0wQ44QBgw=\ntrusted comment: timestamp:1791784106\tfile:darwin-aarch64.json\ngMzZ3wU92LQiZA3bmdBhUmR0EflPCBsO5sRmUszKJ4ejGghkxaGiaGYffBB5+LJlRbn+7il2ZZLAatOew+JqDg==\n"
+      "statement": "{\"version\":\"0.9.2\",\"sha256\":\"4e81293f8e9f1e63e7dd527812bd8647a568528f1e1021e3a88f849a12545232\",\"target\":\"darwin-aarch64\",\"expires\":1794718621,\"sequence\":2026101601}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1nBfA+A14eMtNMJdLxuLDCCBlEdRWQtbry0mJvbWyt94f7Vdj3qGJaCD3BT+bj8RxJRNbzP3TKJpSHKjqT9Dfgk=\ntrusted comment: timestamp:1792126622\tfile:darwin-aarch64.json\nIIonoqsC+hoRqNGWqiPPheu1MlI6glvDosLIJ/OlIp34HbxZDu9aHUosjazVZQaCcCmIlnZzqs0tv2TOT+cuDA==\n"
     },
     "darwin-x86_64": {
-      "statement": "{\"version\":\"0.9.1\",\"sha256\":\"dff726e360edda6cbee0e0656e062953b1f5944b011ee5b9b9fdf151265c7a1c\",\"target\":\"darwin-x86_64\",\"expires\":1794376357,\"sequence\":2026101302}",
-      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1ueqrEeyADJOfFJDqawj37v1gLdb68IQR9EdV2otJPmLkQE+GHSE4CUOBj3M58r+Xct/8PXqCSbgzn3FMw35QQU=\ntrusted comment: timestamp:1791784359\tfile:darwin-x86_64.json\nEsgRX3KdNs3v+V+69oY/fOnpLEqRXsw/ffXORP0APU/7P3H9vikNr4KbCphPTyypmNdn0xPX9UFiVZw9PWE2Bg==\n"
+      "statement": "{\"version\":\"0.9.2\",\"sha256\":\"d6efbf36fdb565e1979b0c671ff080fd544e50d48677210ca73d1f0ce982799a\",\"target\":\"darwin-x86_64\",\"expires\":1794718831,\"sequence\":2026101601}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1sl0SSPwexDfiOzwBSL0iL1FBHE+bvcb6vT4xMoiHk5fHd0k6SfCMqJnFxB7PC1kmDkpc9UHs94oEwjZFQ1lTAo=\ntrusted comment: timestamp:1792126832\tfile:darwin-x86_64.json\nnPXQYejJGPV/M3RyKuDsfEmhE71lZDuvWF1uOnWCvFSJgcP/JeQWJXbe9ZJkv8IIGHjg7RX0LAsG4iRqxgQuAw==\n"
     }
   }
 }
