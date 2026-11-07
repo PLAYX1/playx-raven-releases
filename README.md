@@ -1,4 +1,4 @@
-# RavenVault Desktop 0.9.19
+# RavenVault Desktop 0.9.20
 
 공식 설치 안내: https://ravenvault.ex.erci.se/download/
 
