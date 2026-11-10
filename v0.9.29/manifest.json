@@ -1,0 +1,87 @@
+{
+  "version": "0.9.29",
+  "notes": "RavenVault Desktop 0.9.29 — 방 지우기: 내가 만든 방은 「방 설정」에서 지울 수 있습니다. 레이븐볼트(데스크탑·폰·웹)에서는 사라지고 다시 살아나지 않습니다. 다른 Nostr 앱에는 남아 있을 수 있습니다. 방 알림 끄기 · 컴퓨터 알림: 방마다 알림을 끌 수 있고, 창을 내려 두어도 새 글·답글을 컴퓨터 알림으로 알려 줍니다. 라비가 이야기 말을 알아듣습니다: 「연락 왔어?」「○○ 방 열어 줘」「시끄러워」「이 방 초대」. 글자 크기·밝기·알림 소리·언어도 말로 바꿉니다. 초대 링크: 카톡·텔레그램에 붙이면 방 이름이 미리보기로 나오는 /t/ 링크로 바뀌었습니다. 라비 이모티콘 · 「광장」: 이모티콘이 그림으로 보이고, 공개 글 자리 이름을 「광장」으로 통일했습니다. 거래 책임 고지: 매물에 「레이븐볼트는 거래 당사자가 아닙니다」를 적고, 사기 전에 「읽었어요」를 확인합니다. 개발비 1% 표기. 돈 안전: 수수료를 모르면 보내기를 잠그고, 장터는 미리 본 값과 같을 때만 삽니다. 자동 업데이트 대상은 맥(Apple Silicon·Intel), 윈도우(설치 파일 .exe), 리눅스·라즈베리파이(AppImage)입니다. MSI·deb 로 설치했다면 새 설치 파일을 직접 받아 설치합니다.",
+  "pub_date": "2026-11-10T14:19:33.320Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW43TXJueUtyR0tPemZUYkNmMk55VzNRZkZkaGc1VGRlMXNNcm1acHJ0a3dsRkFpOUdlSHU5dlFOamk0N1QwdjMvZVZPY0NqdlJFV044Um13eHV4elFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE5Njk2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS4yOV94NjQtc2V0dXAuZXhlCllJSUVtcUFwOWxRbm13YkJ1OXZFa1IwSmVrYmxjODdvRmFKc3M3eHE1ODNIc0RxY2ZmbGxkQ2ZTeEJQMEJqUGtwTnVSK0RvMTA4aUhnV3pMR0o1VUNnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXBwVjAvcER5MTloOWdzc29FZGRyRzU3dUNPNHJxQk82KzBBOVpMQ2NwUU5EN1l2L3E2UDNqYVR4eE9KL2ZrbnJvU05TRDgzTS9sdEh5TW9aalRoc3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIwMjgyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKN2RLRDVJbDdnNEZCQlhHV3lOb2g0V1V5RTdXL3NneHZxdmlNZzNTMkJXanNMUVdiT2R5S1I2a09NNHZmb0J4NnkyTXNoS3hIWmFnZlhvNDZTZjlUQ2c9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWtNaUpzSy9XSXpHdzVsdHJ6WitLTnpyb0lPZ2pkRDc3UzRYY0g4SHh2cWlIOTNadTQ4bmphY3dGaTZMN0FoUGpuZXlXaHh3VnlPODcxVDAwUXpVSEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE5NDE2CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKdDVmYTViVUk0bGlwR0ZCRkVHbnpPZjNIZzlFUEdiWFIzV05XTVBMTndzdFhrazdHbWgwSXVlWU5FdlI2ajVxMjRpaTUzS1lJa0FPVHJpYi9DNnJ0Q1E9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMW5jMjBqd09CQXdITElrblNQdnBXcWJlSUZ6cHlnRW5acXA2VC9zbURrdWVpU21HZnhTNFM5dHJDUFBPRFJRMDVRSEpiUmtuRk1vSm91cmcvWSt4T2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE5NzQyCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS4yOV9hbWQ2NC5BcHBJbWFnZQo3dDVSMjIyV0lRWkJkTHhYN1kyUUNkd3BuemlEa0ZQdnA5bmNaaWtFRm90MHJKOXJ0UHp2a2Zab2Jmc2dybmFhTzl1d2xhZXA5Skh0MUhrTG40SlRBUT09Cg==",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-linux.AppImage"
+    },
+    "linux-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXZoY0R6MWFTTVFhSUM0eStzSWZoWkpTcTJRMWU5YnQxOGhuUFNhd0ZPWkQzVmpzRStrZFhrcnByemcvWS9BZUl4aHV6VWNXa0t3NVVoUEo3ZWEwMUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE5NzI1CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS4yOV9hYXJjaDY0LkFwcEltYWdlCkU0b0t2QVc0RVlzN3ZIZm5xM1FzcjlEMThaMmJTQS9aT0hhUXI1REZidVB0QjdYdVZBbFlKWTZmc2R0ZlVZcFlIWHN1VVd2OEdEYnFLVXlTbmpmL0RBPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-linux-arm64.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-windows.exe",
+      "bytes": 58102492,
+      "sha256": "722b3d0e20cb89b8feca1560ec4b74c478ac320df7f9c510cc026dfe9025e618"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-windows.msi",
+      "bytes": 71270400,
+      "sha256": "3d5e0a1f600f4efa353a0b2ab9923478d2f2181c971e8be3b6e6b093bdc9ecd0"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-mac-apple-silicon.dmg",
+      "bytes": 70356916,
+      "sha256": "a848c9ef051db8a11edf08e76a3adce21b1cc11eadd3068eaf07e20af1fbfdbd"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-mac-intel.dmg",
+      "bytes": 74554555,
+      "sha256": "e154cd676941ea4761bf89d4eb02c35f1d0a779c284f84228368d4730be3af60"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-linux.AppImage",
+      "bytes": 98974200,
+      "sha256": "62b306107b4d31e1f99aa5e53e460f98f6d324ade9afeba7da83bb8a39cb9d9e"
+    },
+    {
+      "platform": "linux-arm64.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.29/RavenVault-Desktop-0.9.29-linux-arm64.AppImage",
+      "bytes": 97470984,
+      "sha256": "ea17b338cdd26855055f1560a14469b53aa579f633f7c8f62449acc42831ae36"
+    }
+  ],
+  "signed_releases": {
+    "darwin-aarch64": {
+      "statement": "{\"version\":\"0.9.29\",\"sha256\":\"fde988045c58d9be5cf0f4cb181980aa9056ae06f03292195551cc3834240b57\",\"target\":\"darwin-aarch64\",\"expires\":1796912368,\"sequence\":2026101724}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1skHnMmv0GumgVqgQ2nBujktwupGsZRIUQuW2PTJDkArtLgcxcmY7CEwtEG7NYorlYGJOiE1j7CIwrvo9ut/gwk=\ntrusted comment: timestamp:1794320369\tfile:darwin-aarch64.json\nGA7EaJpQYxBe7CNy4FIPPSZ/xJ5ogMDnQORQ80Gtpb/QJ+RJUdmt8KYGebPrV82gTjP5Oezw9gg9TERufnL3CA==\n"
+    },
+    "darwin-x86_64": {
+      "statement": "{\"version\":\"0.9.29\",\"sha256\":\"a6736ecad324cdca1af53118c41fa1d78cdbb3620bb5ae1249b474b6b0008399\",\"target\":\"darwin-x86_64\",\"expires\":1796912368,\"sequence\":2026101724}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1k2P9Hoe3QPHN0+u5vbdTN8JAoXLAONhXh9xJnoLzEzmQ1JJv52+DJrVUBLuo78C5D1yXXI4ur6c5TpGkNVuxwQ=\ntrusted comment: timestamp:1794320370\tfile:darwin-x86_64.json\nBsgNIVPTpUpOQ5x8Mf/7Pljq2iwSyMVQHZZwMPqNa9b8mnkzgG5YjS42j3yz5vevilXrZT+CbM1Q2ggUnwLuBQ==\n"
+    },
+    "windows-x86_64": {
+      "statement": "{\"version\":\"0.9.29\",\"sha256\":\"722b3d0e20cb89b8feca1560ec4b74c478ac320df7f9c510cc026dfe9025e618\",\"target\":\"windows-x86_64\",\"expires\":1796912368,\"sequence\":2026101724}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1vcCRnbLToVtwp5/J2Bhinzjp83mEPR41tYkRBVuGvLSPlky26vedysN0lVuDgnl2z5ctj9xjP4aUV5JY4G3Xww=\ntrusted comment: timestamp:1794320370\tfile:windows-x86_64.json\nEeF4re6+KEsYsaNk5+4leHz8uU3K+n6jr3TkQsZZQBGzZt4GGRZiUAmJiLIkRA0InJT9vQ/DpYo6vfQEZaflDw==\n"
+    },
+    "linux-x86_64": {
+      "statement": "{\"version\":\"0.9.29\",\"sha256\":\"62b306107b4d31e1f99aa5e53e460f98f6d324ade9afeba7da83bb8a39cb9d9e\",\"target\":\"linux-x86_64\",\"expires\":1796912368,\"sequence\":2026101724}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1udahGYoeB8DCNSTpK2mWktKNHqH/SityOpeWFqEx3nFw5V8HR2RGGzE4ykT7KGZ2uS3I59Q6XsNxQqMDsZG+gY=\ntrusted comment: timestamp:1794320371\tfile:linux-x86_64.json\n4qi2fHMk1QrRVlVACk0qMhdocNNrM8Ah73VCQc+o3eyglE9ClXz3AzXUJNqWi7XuO0uygQNDbQ8n9ugf9Jv0AA==\n"
+    },
+    "linux-aarch64": {
+      "statement": "{\"version\":\"0.9.29\",\"sha256\":\"ea17b338cdd26855055f1560a14469b53aa579f633f7c8f62449acc42831ae36\",\"target\":\"linux-aarch64\",\"expires\":1796912368,\"sequence\":2026101724}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1g7ViFhVE/CXK7rjh2qOqTy6aeJySbfiqV9NBagy5Zjte9x5ZFdAVfodlgTVHynoAU9AGZKLvmyIavZd3uQKXgI=\ntrusted comment: timestamp:1794320372\tfile:linux-aarch64.json\nB+VBmqXvvQQzWRuwrCSnKqALl0JOUwesEc+JXAV/viOG1dIcX6/I3/57aBjGI1rRgwNR5M4CrVQYBCG517MnAA==\n"
+    }
+  }
+}
