@@ -1,0 +1,87 @@
+{
+  "version": "0.9.42",
+  "notes": "RavenVault Desktop 0.9.42 — 이야기 오른쪽 정보 칸이 닫힙니다: 창이 좁아 칸이 글을 덮을 때 칸 밖을 누르면 닫히고, 오른쪽 위 닫기(✕) 단추도 생겼습니다. 잔액 숫자가 칸을 넘지 않습니다: 「내 돈」 숫자가 길면 글자를 줄여 칸 안에 한 줄로 보여 줍니다. 숫자는 자르지 않습니다. 자동 업데이트 대상은 맥(Apple Silicon·Intel), 윈도우(설치 파일 .exe), 리눅스·라즈베리파이(AppImage)입니다. MSI·deb 로 설치했다면 새 설치 파일을 직접 받아 설치합니다.",
+  "pub_date": "2026-11-17T13:10:17.545Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxweFJ1ZTlQT0JBU2hoeDBuN3NtVXhIVEVScUpjeXdGRWR3UmV0VHhHVlc5amVPSkFJdzFEUkw0WTAxVmlBbW5BQ1ZPbDdWb2Y2QUtEdy9WNlRaRXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwNTQ3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS40Ml94NjQtc2V0dXAuZXhlCmpVYk9ub1V5S01YVGtRbWVZWnF2aThzTFBHZW9rdjJNME9sbmtOYWtrazRRcWlPcG83dUtZZ091bnlJZUh1elA4eGdmUnZVbkc4OHJBTFpTOE9SSENnPT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-windows.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXN1aGF5VEFGWFU0ZzhvOS93MmRIeWF1RXRQaUxvY08ydjY1NVI1TndXb3pxS3hhaVFrT29tWVZhdFNqOXJVRlhEenlyMDdGOE5vZnFOcGJuKzJXSXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwNzI4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKR0pSTTdkUTRDOThzUk4rQ3FnUmVJUnlPUUJDLytWYURMaEZ4TDFLYmlQOXBEVXhNc2RsTE92eDluYWw2U25IRU9sdi81OVR2WEh5cVp2dEZueStxQ1E9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-mac-apple-silicon.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMWxCYmtRcmg4bmZvckhEVHNncDEyMXBrb0xKcUlIUnY1Y0J2R1FxNWlqdUpsZ3RWRkk5MFgzWlFrS3ljSUtMOUR6d1hvUXV4aGdCZ1dlbmxmbktFWXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwOTI4CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wLmFwcC50YXIuZ3oKVEkyY29MM2NlaEF5ZEYzNDg4bi9OUytBSkFmeHMvekVvNk1raXZhWWI1bkdNaEQrNE9xMFB6aXI1Ti9wTXRGMDd2V1M1MVZpYkFybE44RmdxbGtYREE9PQo=",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-mac-intel.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXNyZFRaK0RIR2hmTDFDay9qcDFuZHNNRlI5QllnRUFJZTFsd1lRMnNuaU9pOEdsNS9NdDlHM1ZFa2xnWlNXQ3pvZ2pVMllGTFpyLzBYR2RFRjIvbFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwMDAxCWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS40Ml9hbWQ2NC5BcHBJbWFnZQpEOUhoNFA1M0hnekNRbTM5cUVZaWZmcUdPRzI4WGhHUGh0UG5qVXpuWDdHc1dmK1FGZkg4K2tMNWd3YzdLY3cwSU5YMkZpSXFuZlhmazlrL21OVklEUT09Cg==",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-linux.AppImage"
+    },
+    "linux-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRS2d0dnpIeHBCMXJ5WU1VZjdTWFNsYnFnNEFYTFZ3a3RUajJyQ2RGNW1KT281VzJpamYzOHllRnhGM0drMy9DbWIzaFFFM1dhVlNOYWR6SmpFUFNiSHZaNDM3MnduN2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwMjA3CWZpbGU6UmF2ZW5WYXVsdCBEZXNrdG9wXzAuOS40Ml9hYXJjaDY0LkFwcEltYWdlCkllYk1XV0ozOHQrUVM2cG40Yi9pRnRQL2RLVjdYcjlZOXhXQjhZempwVFJwZEhidkRSU3pURXlBUERtQ2ZPNXZ1UU9raUFhU0ljNnRZV3dBTEdCYUN3PT0K",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-linux-arm64.AppImage"
+    }
+  },
+  "installers": [
+    {
+      "platform": "windows.exe",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-windows.exe",
+      "bytes": 58726077,
+      "sha256": "a0e2cf5075f3f76ee093f333e2d27c78f3113d9171cb200ac114f36457a65f8c"
+    },
+    {
+      "platform": "windows.msi",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-windows.msi",
+      "bytes": 72368128,
+      "sha256": "68b5a727d70fe2ce7f84796b087d486ab26d7fdb94215176237877cb64f14f68"
+    },
+    {
+      "platform": "mac-apple-silicon.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-mac-apple-silicon.dmg",
+      "bytes": 68692055,
+      "sha256": "07258777c61255c52bd1f5e6964837fbd335a19458af6d6f08cab42caaf888c3"
+    },
+    {
+      "platform": "mac-intel.dmg",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-mac-intel.dmg",
+      "bytes": 73241623,
+      "sha256": "58aa92ac675065c931802b9d0100ebf73b3c331b24ef6327033f8307bd58d590"
+    },
+    {
+      "platform": "linux.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-linux.AppImage",
+      "bytes": 97475064,
+      "sha256": "fcbef15e793d755c7836a87ab056120f75bbc50453ba20357530ae61789bd06f"
+    },
+    {
+      "platform": "linux-arm64.AppImage",
+      "url": "https://raw.githubusercontent.com/PLAYX1/playx-raven-releases/dist/v0.9.42/RavenVault-Desktop-0.9.42-linux-arm64.AppImage",
+      "bytes": 95009288,
+      "sha256": "56701a0e8fc17882a9ed24c61593c52eff5044ecbee2d7ed4d7ac55375837dfb"
+    }
+  ],
+  "signed_releases": {
+    "darwin-aarch64": {
+      "statement": "{\"version\":\"0.9.42\",\"sha256\":\"53124f254e4963689b89095fb92f254e03d0ffb5b6e4afb6154f76bb396952fc\",\"target\":\"darwin-aarch64\",\"expires\":1797513012,\"sequence\":2026101737}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1gBq7Z51N9OQOMt3QukUV5IbYHWjQ35FB0MpzmRgUs6ByURz4+kxTLVP+tkXXu3nen9aCVwtqJqL2R1OAhwI9wA=\ntrusted comment: timestamp:1794921013\tfile:darwin-aarch64.json\nszKJSosUnEJl3cCSw+JFKNvnrZBf9ahuwm8KrdysPW+XfKaxiMzP96WhlBsnXI9XwdDaAfi01h+936GZE0dZCw==\n"
+    },
+    "darwin-x86_64": {
+      "statement": "{\"version\":\"0.9.42\",\"sha256\":\"863dc86654e9470f3e8994b88dbdd85361218caaff7c7c90615714f1e4c277f3\",\"target\":\"darwin-x86_64\",\"expires\":1797513012,\"sequence\":2026101737}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1i5vZe141t56f9aw8mvsd3gAbApnMHmuTSWzW6x/LP6l0X5lLUAy1MLnKzPZ4YeTSVxCu93qPvbXc4hF71v5VQM=\ntrusted comment: timestamp:1794921014\tfile:darwin-x86_64.json\ncpAzxMb4rAv2oOZ0oC1CcoujcA4LPnGUZSs5mCGJeUgv6dF74eHsyvuIdM02BcEuU4pXU15UJq7f2Beo9v6rBg==\n"
+    },
+    "windows-x86_64": {
+      "statement": "{\"version\":\"0.9.42\",\"sha256\":\"a0e2cf5075f3f76ee093f333e2d27c78f3113d9171cb200ac114f36457a65f8c\",\"target\":\"windows-x86_64\",\"expires\":1797513012,\"sequence\":2026101737}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1ufkzLLEkmkBmdsaXl9y6K4B+AWJ2xlbtUxsryV/u7gypzv/OR7tmGEpl5v/2EFmtwpe3s6rtH4gR0kCtCN5Xgs=\ntrusted comment: timestamp:1794921015\tfile:windows-x86_64.json\nnKkfnmbUKodNLwwp4Nmmam3sLxo/lqUNaxdhfM53cYFOZNkvSIgRaBzshrsayKc/B3ZVHuPMOjglUbS3T1PPCQ==\n"
+    },
+    "linux-x86_64": {
+      "statement": "{\"version\":\"0.9.42\",\"sha256\":\"fcbef15e793d755c7836a87ab056120f75bbc50453ba20357530ae61789bd06f\",\"target\":\"linux-x86_64\",\"expires\":1797513012,\"sequence\":2026101737}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1gQH6tLjDPz1Vf9VpH0nWxCIPpKxuIpKv3PZtWkR+9atBKxhs4GMsITE+Ftomy/0IgCBciGCMllALwDyySx3NgI=\ntrusted comment: timestamp:1794921015\tfile:linux-x86_64.json\nnrMVwaapcpcdGVWas/vVe4H4b3INqWlztC9SY5WmGJiCpcqrrnz3hmiXZ+falH8JdqLFzAufuMvKPoPGvrqeBQ==\n"
+    },
+    "linux-aarch64": {
+      "statement": "{\"version\":\"0.9.42\",\"sha256\":\"56701a0e8fc17882a9ed24c61593c52eff5044ecbee2d7ed4d7ac55375837dfb\",\"target\":\"linux-aarch64\",\"expires\":1797513012,\"sequence\":2026101737}",
+      "signature": "untrusted comment: signature from tauri secret key\nRUQKgtvzHxpB1uSF0ZKPAeEbyxzH/L2Dmw3gL3NthqLJdLP5mEegc618T5T+V3mVQtPJLbZKTbk+kTYI+G+utWQffT2+Bu0C2AA=\ntrusted comment: timestamp:1794921016\tfile:linux-aarch64.json\n9aA8b4TErfsNXlpb7aOrjGrQ9rfH528FBfMkQytrQYykSywsq4RDRJxC3qZDR5Jg0q7GCmGyrYYNOWGuavDZAQ==\n"
+    }
+  }
+}
